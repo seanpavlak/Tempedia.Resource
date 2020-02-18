@@ -1,0 +1,150 @@
+{
+	"id": 127,
+	"name": "Kalazu",
+	"types": ["Water"],
+	"standardIcon": "/images/standard/Kalazu.png",
+	"standardGif": "/images/standard/Kalazu.gif",
+	"lumaIcon": "/images/luma/Kalazu.png",
+	"lumaGif": "/images/luma/Kalazu.gif",
+	"cry": "/cry/Kalazu.wav",
+	"tier": "E",
+	"stats": {
+		"hp": 63,
+		"sta": 24,
+		"spd": 28,
+		"atk": 54,
+		"def": 70,
+		"spatk": 38,
+		"spdef": 44,
+		"total": 321
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 0,
+		"atk": 0,
+		"def": 1,
+		"spatk": 0,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 23,
+		"High": 260,
+		"Wild": 100
+	},
+	"traits": ["Mithridatism", "Hydrologist"],
+	"details": {
+		"height": {
+			"cm": 114,
+			"inches": 44
+		},
+		"weight": {
+			"kg": 52,
+			"lbs": 115
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Bubbles",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Tentacle Whip",
+		"source": "Levelling",
+		"levels": 3
+	}, {
+		"name": "Water Blade",
+		"source": "Levelling",
+		"levels": 5
+	}, {
+		"name": "Strangle",
+		"source": "Levelling",
+		"levels": 8
+	}, {
+		"name": "Aqua Stone",
+		"source": "Levelling",
+		"levels": 14
+	}, {
+		"name": "High-pressure Water",
+		"source": "Levelling",
+		"levels": 20
+	}, {
+		"name": "Humiliating Slap",
+		"source": "Levelling",
+		"levels": 30
+	}, {
+		"name": "Tsunami",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Wake Up",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Iced Stalactite",
+		"source": "Breeding"
+	}, {
+		"name": "Toxic Slime",
+		"source": "Breeding"
+	}, {
+		"name": "Clinch",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+			"id": 127,
+			"name": "Kalazu",
+			"stage": 0
+		}, {
+			"id": 128,
+			"name": "Kalabyss",
+			"stage": 1,
+			"levels": 18,
+			"method": "level",
+			"previous": "Kalazu"
+		}],
+	},
+	"locations": [{
+		"location": "Thalassian Cliffs",
+		"island": "Deniz",
+		"frequency": 0.50,
+		"level": {
+			"min": 18,
+			"max": 20
+		}
+	}, {
+		"location": "Sillaro River",
+		"island": "Deniz",
+		"frequency": 0.40,
+		"level": {
+			"min": 13,
+			"max": 15
+		}
+	}, {
+		"location": "Aguamarina Caves",
+		"island": "Deniz",
+		"frequency": 0.65,
+		"level": {
+			"min": 15,
+			"max": 22
+		}
+	}, {
+		"location": "Corrupted Badlands",
+		"island": "Tucma",
+		"frequency": 0.70,
+		"level": {
+			"min": 27,
+			"max": 29
+		}
+	}, {
+		"location": "Xolot Reservoir",
+		"island": "Tucma",
+		"frequency": 0.40,
+		"level": {
+			"min": 28,
+			"max": 32
+		}
+	}]
+}

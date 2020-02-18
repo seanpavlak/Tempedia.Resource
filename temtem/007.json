@@ -1,0 +1,145 @@
+{
+	"id": 7,
+	"name": "Platypet",
+	"types": ["Water", "Toxic"],
+	"standardIcon": "/images/standard/Platypet.png",
+	"standardGif": "/images/standard/Platypet.gif",
+	"lumaIcon": "/images/luma/Platypet.png",
+	"lumaGif": "/images/luma/Platypet.gif",
+	"cry": "/cry/Platypet.wav",
+	"tier": "E",
+	"stats": {
+		"hp": 55,
+		"sta": 39,
+		"spd": 65,
+		"atk": 45,
+		"def": 31,
+		"spatk": 67,
+		"spdef": 56,
+		"total": 358
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 0,
+		"atk": 0,
+		"def": 0,
+		"spatk": 1,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 23,
+		"High": 260,
+		"Wild": 104
+	},
+	"traits": ["Toxic Affinity", "Amphibian"],
+	"details": {
+		"height": {
+			"cm": 85,
+			"inches": 33
+		},
+		"weight": {
+			"kg": 48,
+			"lbs": 105
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Finbeat",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Water Blade",
+		"source": "Levelling",
+		"levels": 3
+	}, {
+		"name": "Venomous Claws",
+		"source": "Levelling",
+		"levels": 4
+	}, {
+		"name": "Sand Splatter",
+		"source": "Levelling",
+		"levels": 7
+	}, {
+		"name": "Cheer Up",
+		"source": "Levelling",
+		"levels": 9
+	}, {
+		"name": "Aqua Bullet Hell",
+		"source": "Levelling",
+		"levels": 14
+	}, {
+		"name": "Tsunami",
+		"source": "Levelling",
+		"levels": 18
+	}, {
+		"name": "Urushiol",
+		"source": "Breeding"
+	}, {
+		"name": "Antitoxins",
+		"source": "Breeding"
+	}, {
+		"name": "Sharp Rain",
+		"source": "Breeding"
+	}, {
+		"name": "Flood",
+		"source": "Breeding"
+	}, {
+		"name": "Intimidation",
+		"source": "Breeding"
+	}, {
+		"name": "Shrill Voice",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+				"id": 7,
+				"name": "Platypet",
+				"stage": 0
+		}, {
+				"id": 8,
+				"name": "Platox",
+				"stage": 1,
+				"levels": 20,
+				"method": "level",
+				"previous": "Platypet"
+		},
+			{
+				"id": 9,
+				"name": "Platimous",
+				"stage": 2,
+				"levels": 20,
+				"method": "level",
+				"previous": "Platox"
+		}],
+	},
+	"locations": [{
+		"location": "Corrupted Badlands",
+		"island": "Tucma",
+		"frequency": 0.3,
+		"level": {
+			"min": 24,
+			"max": 28
+		}
+	}, {
+		"location": "Xolot Reservoir",
+		"island": "Tucma",
+		"frequency": 0.5,
+		"level": {
+			"min": 28,
+			"max": 32
+		}
+	}, {
+		"location": "Mines of Mictlan",
+		"island": "Tucma",
+		"frequency": 0.85,
+		"level": {
+			"min": 31,
+			"max": 35
+		}
+	}]
+}

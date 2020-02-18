@@ -1,0 +1,155 @@
+{
+	"id": 48,
+	"name": "Kaku",
+	"types": ["Nature"],
+	"standardIcon": "/images/standard/Kaku.png",
+	"standardGif": "/images/standard/Kaku.gif",
+	"lumaIcon": "/images/luma/Kaku.png",
+	"lumaGif": "/images/luma/Kaku.gif",
+	"cry": "/cry/Kaku.wav",
+	"tier": "E",
+	"stats": {
+		"hp": 69,
+		"sta": 48,
+		"spd": 35,
+		"atk": 35,
+		"def": 60,
+		"spatk": 60,
+		"spdef": 50,
+		"total": 357
+	},
+	"tv": {
+		"hp": 1,
+		"sta": 0,
+		"spd": 0,
+		"atk": 0,
+		"def": 0,
+		"spatk": 0,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 22,
+		"High": 178,
+		"Wild": 52
+	},
+	"traits": ["Caffeinated", "Mithridatism"],
+	"details": {
+		"height": {
+			"cm": 54,
+			"inches": 21
+		},
+		"weight": {
+			"kg": 29,
+			"lbs": 63
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Shy Shield",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Toxic Spores",
+		"source": "Levelling",
+		"levels": 3
+	}, {
+		"name": "Nimble",
+		"source": "Levelling",
+		"levels": 6
+	}, {
+		"name": "Urushiol",
+		"source": "Levelling",
+		"levels": 8
+	}, {
+		"name": "Sharp Leaf",
+		"source": "Levelling",
+		"levels": 11
+	}, {
+		"name": "Wind Burst",
+		"source": "Levelling",
+		"levels": 14
+	}, {
+		"name": "Narcoleptic Hit",
+		"source": "Levelling",
+		"levels": 18
+	}, {
+		"name": "Boomerang",
+		"source": "Levelling",
+		"levels": 25
+	}, {
+		"name": "Allergic Spread",
+		"source": "Levelling",
+		"levels": 30
+	}, {
+		"name": "Wake Up",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Noxious Bomb",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Bark Shield",
+		"source": "Breeding"
+	}, {
+		"name": "Lifeful Sap",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+			"id": 48,
+			"name": "Kaku",
+			"stage": 0
+		}, {
+			"id": 49,
+			"name": "Saku",
+			"stage": 1,
+			"levels": 11,
+			"method": "level",
+			"previous": "Kaku"
+		}],
+	},
+	"locations": [{
+		"location": "Prasine Coast",
+		"island": "Deniz",
+		"frequency": 0.40,
+		"level": {
+			"min": 2,
+			"max": 5
+		}
+	}, {
+		"location": "Thalassian Cliffs",
+		"island": "Deniz",
+		"frequency": 0.10,
+		"level": {
+			"min": 7,
+			"max": 9
+		}
+	}, {
+		"location": "The Gifted Bridges",
+		"island": "Deniz",
+		"frequency": 0.95,
+		"level": {
+			"min": 7,
+			"max": 11
+		}
+	}, {
+		"location": "The Canopath",
+		"island": "Omninesia",
+		"frequency": 0.75,
+		"level": {
+			"min": 16,
+			"max": 18
+		}
+	}, {
+		"location": "The Flywalk",
+		"island": "Omninesia",
+		"frequency": 0.50,
+		"level": {
+			"min": 18,
+			"max": 20
+		}
+	}]
+}

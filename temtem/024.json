@@ -1,0 +1,153 @@
+{
+	"id": 24,
+	"name": "Taifu",
+	"types": ["Nature"],
+	"standardIcon": "/images/standard/Taifu.png",
+	"standardGif": "/images/standard/Taifu.gif",
+	"lumaIcon": "/images/luma/Taifu.png",
+	"lumaGif": "/images/luma/Taifu.gif",
+	"cry": "/cry/Taifu.wav",
+	"tier": "D",
+	"stats": {
+		"hp": 60,
+		"sta": 87,
+		"spd": 45,
+		"atk": 50,
+		"def": 45,
+		"spatk": 78,
+		"spdef": 78,
+		"total": 443
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 2,
+		"spd": 0,
+		"atk": 0,
+		"def": 0,
+		"spatk": 1,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 23,
+		"High": 260,
+		"Wild": 73
+	},
+	"traits": ["Toxic Farewell", "Resilient"],
+	"details": {
+		"height": {
+			"cm": 180,
+			"inches": 70
+		},
+		"weight": {
+			"kg": 72,
+			"lbs": 158
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Scratch",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Sand Splatter",
+		"source": "Levelling",
+		"levels": 4
+	}, {
+		"name": "Sharp Leaf",
+		"source": "Levelling",
+		"levels": 7
+	}, {
+		"name": "Cheer Up",
+		"source": "Levelling",
+		"levels": 12
+	}, {
+		"name": "Allergic Spread",
+		"source": "Levelling",
+		"levels": 19
+	}, {
+		"name": "Gaia",
+		"source": "Levelling",
+		"levels": 24
+	}, {
+		"name": "Bark Shield",
+		"source": "Levelling",
+		"levels": 28
+	}, {
+		"name": "Dust Vortex",
+		"source": "Levelling",
+		"levels": 37
+	}, {
+		"name": "Frond Whip",
+		"source": "Levelling",
+		"levels": 48
+	}, {
+		"name": "Wake Up",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Misogi",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Antitoxins",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Cage",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Relax",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Major Slash",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Spores",
+		"source": "Breeding"
+	}, {
+		"name": "Lullaby",
+		"source": "Breeding"
+	}, {
+		"name": "Water Cutting Lily",
+		"source": "Breeding"
+	}, {
+		"name": "Sacrifice",
+		"source": "Breeding"
+	}, {
+		"name": "Hypoxia",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 1,
+		"tree": [{
+			"id": 23,
+			"name": "Hidody",
+			"stage": 0
+		}, {
+			"id": 24,
+			"name": "Taifu",
+			"stage": 1,
+			"levels": 15,
+			"method": "level",
+			"previous": "Hidody"
+		}],
+	},
+	"locations": [{
+			"location": "The Glassyway",
+			"island": "Omninesia",
+			"frequency": 0.25,
+			"level": {
+				"min": 19,
+				"max": 22
+			}
+	},
+		{
+			"location": "Mokupuni",
+			"island": "Omninesia",
+			"frequency": 0.25,
+			"level": {
+				"min": 19,
+				"max": 22
+			}
+	}]
+}

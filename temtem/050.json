@@ -1,0 +1,124 @@
+{
+	"id": 50,
+	"name": "Valash",
+	"types": ["Neutral", "Crystal"],
+	"standardIcon": "/images/standard/Valash.png",
+	"standardGif": "/images/standard/Valash.gif",
+	"lumaIcon": "/images/luma/Valash.png",
+	"lumaGif": "/images/luma/Valash.gif",
+	"cry": "/cry/Valash.wav",
+	"tier": "A",
+	"stats": {
+		"hp": 58,
+		"sta": 57,
+		"spd": 90,
+		"atk": 74,
+		"def": 56,
+		"spatk": 74,
+		"spdef": 56,
+		"total": 465
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 0,
+		"atk": 2,
+		"def": 0,
+		"spatk": 2,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 24,
+		"High": 336,
+		"Wild": 144
+	},
+	"traits": ["Scavenger", "Determined"],
+	"details": {
+		"height": {
+			"cm": 185,
+			"inches": 72
+		},
+		"weight": {
+			"kg": 84,
+			"lbs": 185
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Scratch",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Glass Blade",
+		"source": "Levelling",
+		"levels": 6
+	}, {
+		"name": "Crystal Dust",
+		"source": "Levelling",
+		"levels": 10
+	}, {
+		"name": "Sharp Stabs",
+		"source": "Levelling",
+		"levels": 17
+	}, {
+		"name": "Crystal Bite",
+		"source": "Levelling",
+		"levels": 24
+	}, {
+		"name": "Crystal Spikes",
+		"source": "Levelling",
+		"levels": 31
+	}, {
+		"name": "Rend",
+		"source": "Levelling",
+		"levels": 39
+	}, {
+		"name": "Held Anger",
+		"source": "Levelling",
+		"levels": 48
+	}, {
+		"name": "Stone Wall",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Cage",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Block",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Madness Buff",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Footwork",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Major Slash",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Clinch",
+		"source": "Breeding"
+	}, {
+		"name": "Ninja Jutsu",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+			"id": 50,
+			"name": "Valash",
+			"stage": 0
+		}],
+	},
+	"locations": [{
+		"location": "Mines of Mictlan",
+		"island": "Tucma",
+		"frequency": 0.10,
+		"level": {
+			"min": 35,
+			"max": 39
+		}
+	}]
+}

@@ -1,0 +1,105 @@
+{
+	"id": 44,
+	"name": "Bigu",
+	"types": ["Nature"],
+	"standardIcon": "/images/standard/Bigu.png",
+	"standardGif": "/images/standard/Bigu.gif",
+	"lumaIcon": "/images/luma/Bigu.png",
+	"lumaGif": "/images/luma/Bigu.gif",
+	"cry": "/cry/Bigu.wav",
+	"tier": "E",
+	"stats": {
+		"hp": 55,
+		"sta": 68,
+		"spd": 20,
+		"atk": 65,
+		"def": 38,
+		"spatk": 41,
+		"spdef": 42,
+		"total": 329
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 2,
+		"spd": 0,
+		"atk": 0,
+		"def": 0,
+		"spatk": 0,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 22,
+		"High": 187,
+		"Wild": 0
+	},
+	"traits": ["Warm-Blooded", "Amphibian"],
+	"details": {
+		"height": {
+			"cm": 113,
+			"inches": 44
+		},
+		"weight": {
+			"kg": 113,
+			"lbs": 249
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Nibble",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Shy Shield",
+		"source": "Levelling",
+		"levels": 5
+	}, {
+		"name": "Sharp Leaf",
+		"source": "Levelling",
+		"levels": 10
+	}, {
+		"name": "Slime",
+		"source": "Levelling",
+		"levels": 15
+	}, {
+		"name": "Water Cutting Lily",
+		"source": "Levelling",
+		"levels": 24
+	}, {
+		"name": "Wake Up",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Misogi",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Antitoxins",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Bubbles",
+		"source": "Breeding"
+	}, {
+		"name": "Ice Cubes",
+		"source": "Breeding"
+	}, {
+		"name": "Toxic Slime",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+			"id": 44,
+			"name": "Bigu",
+			"stage": 0
+		}, {
+			"id": 45,
+			"name": "Babawa",
+			"stage": 1,
+			"levels": 18,
+			"method": "level",
+			"previous": "Bigu"
+		}],
+	},
+	"locations": []
+}

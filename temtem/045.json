@@ -1,0 +1,141 @@
+{
+	"id": 45,
+	"name": "Babawa",
+	"types": ["Nature", "Water"],
+	"standardIcon": "/images/standard/Babawa.png",
+	"standardGif": "/images/standard/Babawa.gif",
+	"lumaIcon": "/images/luma/Babawa.png",
+	"lumaGif": "/images/luma/Babawa.gif",
+	"cry": "/cry/Babawa.wav",
+	"tier": "D",
+	"stats": {
+		"hp": 85,
+		"sta": 92,
+		"spd": 40,
+		"atk": 79,
+		"def": 57,
+		"spatk": 51,
+		"spdef": 44,
+		"total": 448
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 4,
+		"spd": 0,
+		"atk": 0,
+		"def": 0,
+		"spatk": 0,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 24,
+		"High": 354,
+		"Wild": 150
+	},
+	"traits": ["Mucous", "Withdrawal"],
+	"details": {
+		"height": {
+			"cm": 226,
+			"inches": 88
+		},
+		"weight": {
+			"kg": 340,
+			"lbs": 749
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Nibble",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Shy Shield",
+		"source": "Levelling",
+		"levels": 5
+	}, {
+		"name": "Sharp Leaf",
+		"source": "Levelling",
+		"levels": 10
+	}, {
+		"name": "Slime",
+		"source": "Levelling",
+		"levels": 15
+	}, {
+		"name": "Water Cutting Lily",
+		"source": "Levelling",
+		"levels": 24
+	}, {
+		"name": "Iced Stalactite",
+		"source": "Levelling",
+		"levels": 31
+	}, {
+		"name": "Aqua Stone",
+		"source": "Levelling",
+		"levels": 40
+	}, {
+		"name": "Harmful Lick",
+		"source": "Levelling",
+		"levels": 48
+	}, {
+		"name": "Wake Up",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Misogi",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Antitoxins",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Bubbles",
+		"source": "Breeding"
+	}, {
+		"name": "Ice Cubes",
+		"source": "Breeding"
+	}, {
+		"name": "Toxic Slime",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 1,
+		"tree": [{
+			"id": 44,
+			"name": "Bigu",
+			"stage": 0
+		}, {
+			"id": 45,
+			"name": "Babawa",
+			"stage": 1,
+			"levels": 18,
+			"method": "level",
+			"previous": "Bigu"
+		}],
+	},
+	"locations": [{
+		"location": "The Flywalk",
+		"island": "Omninesia",
+		"frequency": 0.30,
+		"level": {
+			"min": 18,
+			"max": 21
+		}
+	}, {
+		"location": "The Hangroad",
+		"island": "Omninesia",
+		"frequency": 0.35,
+		"level": {
+			"min": 18,
+			"max": 21
+		}
+	}, {
+		"location": "Kakama Cenote",
+		"island": "Tucma",
+		"frequency": 0.20,
+		"level": {
+			"min": 35,
+			"max": 39
+		}
+	}]
+}

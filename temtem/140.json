@@ -1,0 +1,128 @@
+{
+	"id": 140,
+	"name": "Vulcrane",
+	"types": ["Fire", "Earth"],
+	"standardIcon": "/images/standard/Vulcrane.png",
+	"standardGif": "/images/standard/Vulcrane.gif",
+	"lumaIcon": "/images/luma/Vulcrane.png",
+	"lumaGif": "/images/luma/Vulcrane.gif",
+	"cry": "/cry/Vulcrane.wav",
+	"tier": "B",
+	"stats": {
+		"hp": 76,
+		"sta": 65,
+		"spd": 73,
+		"atk": 74,
+		"def": 86,
+		"spatk": 64,
+		"spdef": 35,
+		"total": 473
+	},
+	"tv": {
+		"hp": 1,
+		"sta": 0,
+		"spd": 0,
+		"atk": 0,
+		"def": 2,
+		"spatk": 0,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 25,
+		"High": 449,
+		"Wild": 0
+	},
+	"traits": ["Receptive", "Vigorous"],
+	"details": {
+		"height": {
+			"cm": 233,
+			"inches": 91
+		},
+		"weight": {
+			"kg": 142,
+			"lbs": 313
+		},
+		"gender": {
+			"female": 0.40,
+			"male": 0.60
+		}
+	},
+	"techniques": [{
+		"name": "Scratch",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Stare",
+		"source": "Levelling",
+		"levels": 3
+	}, {
+		"name": "Sand Splatter",
+		"source": "Levelling",
+		"levels": 7
+	}, {
+		"name": "Fire Flame",
+		"source": "Levelling",
+		"levels": 10
+	}, {
+		"name": "Head Ram",
+		"source": "Levelling",
+		"levels": 15
+	}, {
+		"name": "Embers",
+		"source": "Levelling",
+		"levels": 21
+	}, {
+		"name": "Double Kick",
+		"source": "Levelling",
+		"levels": 30
+	}, {
+		"name": "Stone Ball",
+		"source": "Levelling",
+		"levels": 41
+	}, {
+		"name": "Ninja Jutsu",
+		"source": "Levelling",
+		"levels": 48
+	}, {
+		"name": "Wake Up",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Magma Cannon",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Rend",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Major Slash",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Earth Wave",
+		"source": "Breeding"
+	}, {
+		"name": "Extinction",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 2,
+		"tree": [{
+			"id": 138,
+			"name": "Vulvir",
+			"stage": 0
+		}, {
+			"id": 139,
+			"name": "Vulor",
+			"stage": 1,
+			"levels": 14,
+			"method": "level",
+			"previous": "Vulvir"
+		}, {
+			"id": 140,
+			"name": "Vulcrane",
+			"stage": 1,
+			"levels": 28,
+			"method": "level",
+			"previous": "Vulor"
+		}],
+	},
+	"locations": []
+}

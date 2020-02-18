@@ -1,0 +1,122 @@
+{
+	"id": 41,
+	"name": "Zenoreth",
+	"types": ["Crystal"],
+	"standardIcon": "/images/standard/Zenoreth.png",
+	"standardGif": "/images/standard/Zenoreth.gif",
+	"lumaIcon": "/images/luma/Zenoreth.png",
+	"lumaGif": "/images/luma/Zenoreth.gif",
+	"cry": "/cry/Zenoreth.wav",
+	"tier": "C",
+	"stats": {
+		"hp": 71,
+		"sta": 35,
+		"spd": 56,
+		"atk": 67,
+		"def": 87,
+		"spatk": 65,
+		"spdef": 69,
+		"total": 450
+	},
+	"tv": {
+		"hp": 2,
+		"sta": 0,
+		"spd": 0,
+		"atk": 0,
+		"def": 2,
+		"spatk": 0,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 0,
+		"High": 0,
+		"Wild": 0
+	},
+	"traits": ["Channeler", "Wrecked Farewell"],
+	"details": {
+		"height": {
+			"cm": 310,
+			"inches": 122
+		},
+		"weight": {
+			"kg": 220,
+			"lbs": 485
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Scratch",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Nibble",
+		"source": "Levelling",
+		"levels": 2
+	}, {
+		"name": "Glass Blade",
+		"source": "Levelling",
+		"levels": 6
+	}, {
+		"name": "Tail Strike",
+		"source": "Levelling",
+		"levels": 10
+	}, {
+		"name": "Sharp Stabs",
+		"source": "Levelling",
+		"levels": 15
+	}, {
+		"name": "Crystal Spikes",
+		"source": "Levelling",
+		"levels": 22
+	}, {
+		"name": "Madness Buff",
+		"source": "Levelling",
+		"levels": 28
+	}, {
+		"name": "Crystal Bite",
+		"source": "Levelling",
+		"levels": 37
+	}, {
+		"name": "Rend",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Footwork",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Diamond Fort",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 2,
+		"tree": [{
+			"id": 39,
+			"name": "Lapinite",
+			"stage": 0
+		}, {
+			"id": 40,
+			"name": "Azuroc",
+			"stage": 1,
+			"levels": 25,
+			"method": "level",
+			"previous": "Lapinite"
+		}, {
+			"id": 41,
+			"name": "Zenoreth",
+			"stage": 2,
+			"method": "trade",
+			"previous": "Azuroc"
+		}],
+	},
+	"locations": [{
+		"location": "Corrupted Badlands",
+		"island": "Tucma",
+		"frequency": 0.95,
+		"level": {
+			"min": 50,
+			"max": 55
+		}
+	}]
+}

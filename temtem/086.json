@@ -1,0 +1,91 @@
+{
+	"id": 86,
+	"name": "Magmis",
+	"types": ["Fire"],
+	"standardIcon": "/images/standard/Magmis.png",
+	"standardGif": "/images/standard/Magmis.gif",
+	"lumaIcon": "/images/luma/Magmis.png",
+	"lumaGif": "/images/luma/Magmis.gif",
+	"cry": "/cry/Magmis.wav",
+	"tier": "E",
+	"stats": {
+		"hp": 52,
+		"sta": 51,
+		"spd": 37,
+		"atk": 55,
+		"def": 42,
+		"spatk": 45,
+		"spdef": 35,
+		"total": 317
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 0,
+		"atk": 2,
+		"def": 0,
+		"spatk": 0,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 22,
+		"High": 170,
+		"Wild": 73
+	},
+	"traits": ["Caffeinated", "Thick Skin"],
+	"details": {
+		"height": {
+			"cm": 115,
+			"inches": 45
+		},
+		"weight": {
+			"kg": 26,
+			"lbs": 58
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Tenderness",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Fire Flame",
+		"source": "Levelling",
+		"levels": 5
+	}, {
+		"name": "Jaw Strike",
+		"source": "Levelling",
+		"levels": 9
+	}, {
+		"name": "Rage",
+		"source": "Levelling",
+		"levels": 16
+	}, {
+		"name": "Warm Cuddle",
+		"source": "Levelling",
+		"levels": 20
+	}, {
+		"name": "Embers",
+		"source": "Levelling",
+		"levels": 26
+	}],
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+			"id": 86,
+			"name": "Magmis",
+			"stage": 0
+		}, {
+			"id": 87,
+			"name": "Mastione",
+			"stage": 1,
+			"levels": 16,
+			"method": "level",
+			"previous": "Magmis"
+		}],
+	},
+	"locations": []
+}

@@ -1,0 +1,79 @@
+{
+	"id": 79,
+	"name": "Hocus",
+	"types": ["Mental"],
+	"standardIcon": "/images/standard/Hocus.png",
+	"standardGif": "/images/standard/Hocus.gif",
+	"lumaIcon": "/images/luma/Hocus.png",
+	"lumaGif": "/images/luma/Hocus.gif",
+	"cry": "/cry/Hocus.wav",
+	"tier": "E",
+	"stats": {
+		"hp": 49,
+		"sta": 61,
+		"spd": 65,
+		"atk": 55,
+		"def": 34,
+		"spatk": 55,
+		"spdef": 34,
+		"total": 353
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 1,
+		"atk": 0,
+		"def": 0,
+		"spatk": 0,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 24,
+		"High": 354,
+		"Wild": 0
+	},
+	"traits": ["Mirroring"],
+	"details": {
+		"height": {
+			"cm": 115,
+			"inches": 45
+		},
+		"weight": {
+			"kg": 31,
+			"lbs": 68
+		},
+		"gender": {
+			"female": 0.80,
+			"male": 0.20
+		}
+	},
+	"techniques": [{
+		"name": "Psychosis",
+		"source": "Levelling",
+		"levels": 0
+	}, {
+		"name": "Beta Burst",
+		"source": "Levelling",
+		"levels": 0
+	}, {
+		"name": "Telekinetic Shrapnel",
+		"source": "Levelling",
+		"levels": 0
+	}],
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+			"id": 79,
+			"name": "Hocus",
+			"stage": 0
+		}, {
+			"id": 80,
+			"name": "Pocus",
+			"stage": 1,
+			"levels": 17,
+			"method": "level",
+			"previous": "Hocus"
+		}],
+	},
+	"locations": []
+}

@@ -1,0 +1,95 @@
+{
+	"id": 161,
+	"name": "Anahir",
+	"types": ["Crystal", "Fire"],
+	"standardIcon": "/images/standard/Anahir.png",
+	"standardGif": "/images/standard/Anahir.gif",
+	"lumaIcon": "/images/luma/Anahir.png",
+	"lumaGif": "/images/luma/Anahir.gif",
+	"cry": "/cry/Anahir.wav",
+	"tier": "A",
+	"stats": {
+		"hp": 54,
+		"sta": 36,
+		"spd": 31,
+		"atk": 50,
+		"def": 101,
+		"spatk": 50,
+		"spdef": 101,
+		"total": 423
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 0,
+		"atk": 0,
+		"def": 2,
+		"spatk": 0,
+		"spdef": 2
+	},
+	"freetem": {
+		"low": 0,
+		"High": 0,
+		"Wild": 0
+	},
+	"traits": ["Trauma", "Flawed Crystal"],
+	"details": {
+		"height": {
+			"cm": 152,
+			"inches": 59
+		},
+		"weight": {
+			"kg": 172,
+			"lbs": 379
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Glass Blade",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Fire Flame",
+		"source": "Levelling",
+		"levels": 4
+	}, {
+		"name": "Head Charge",
+		"source": "Levelling",
+		"levels": 9
+	}, {
+		"name": "Chains Hit",
+		"source": "Levelling",
+		"levels": 15
+	}, {
+		"name": "Meteor Swarm",
+		"source": "Levelling",
+		"levels": 21
+	}, {
+		"name": "Rampage",
+		"source": "Levelling",
+		"levels": 27
+	}, {
+		"name": "Heat Up",
+		"source": "Levelling",
+		"levels": 36
+	}, {
+		"name": "Crystal Bite",
+		"source": "Levelling",
+		"levels": 47
+	}, {
+		"name": "Magma Cannon",
+		"source": "TechniqueCourses"
+	}],
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+			"id": 161,
+			"name": "Anahir",
+			"stage": 0
+		}],
+	},
+	"locations": []
+}

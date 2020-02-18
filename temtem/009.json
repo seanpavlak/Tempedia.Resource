@@ -1,0 +1,151 @@
+{
+	"id": 9,
+	"name": "Platimous",
+	"types": ["Water", "Toxic"],
+	"standardIcon": "/images/standard/Platimous.png",
+	"standardGif": "/images/standard/Platimous.gif",
+	"lumaIcon": "/images/luma/Platimous.png",
+	"lumaGif": "/images/luma/Platimous.gif",
+	"cry": "/cry/Platimous.wav",
+	"tier": "B",
+	"stats": {
+		"hp": 71,
+		"sta": 49,
+		"spd": 82,
+		"atk": 56,
+		"def": 39,
+		"spatk": 90,
+		"spdef": 70,
+		"total": 457
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 2,
+		"atk": 0,
+		"def": 0,
+		"spatk": 2,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 24,
+		"High": 373,
+		"Wild": 0
+	},
+	"traits": ["Zen", "Determined"],
+	"details": {
+		"height": {
+			"cm": 190,
+			"inches": 74
+		},
+		"weight": {
+			"kg": 107,
+			"lbs": 235
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Finbeat",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Water Blade",
+		"source": "Levelling",
+		"levels": 3
+	}, {
+		"name": "Venomous Claws",
+		"source": "Levelling",
+		"levels": 4
+	}, {
+		"name": "Sand Splatter",
+		"source": "Levelling",
+		"levels": 7
+	}, {
+		"name": "Cheer Up",
+		"source": "Levelling",
+		"levels": 9
+	}, {
+		"name": "Aqua Bullet Hell",
+		"source": "Levelling",
+		"levels": 14
+	}, {
+		"name": "Tsunami",
+		"source": "Levelling",
+		"levels": 18
+	}, {
+		"name": "Toxic Fang",
+		"source": "Levelling",
+		"levels": 24
+	}, {
+		"name": "Paralysing Poison",
+		"source": "Levelling",
+		"levels": 36
+	}, {
+		"name": "Aquatic Whirlwind",
+		"source": "Levelling",
+		"levels": 48
+	}, {
+		"name": "Misogi",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Noxious Bomb",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Rend",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Footwork",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Held Anger",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Major Slash",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Urushiol",
+		"source": "Breeding"
+	}, {
+		"name": "Antitoxins",
+		"source": "Breeding"
+	}, {
+		"name": "Sharp Rain",
+		"source": "Breeding"
+	}, {
+		"name": "Flood",
+		"source": "Breeding"
+	}, {
+		"name": "Intimidation",
+		"source": "Breeding"
+	}, {
+		"name": "Shrill Voice",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 2,
+		"tree": [{
+				"id": 7,
+				"name": "Platypet",
+				"stage": 0
+		}, {
+				"id": 8,
+				"name": "Platox",
+				"stage": 1,
+				"levels": 20,
+				"method": "level",
+				"previous": "Platypet"
+		},
+			{
+				"id": 9,
+				"name": "Platimous",
+				"stage": 2,
+				"levels": 20,
+				"method": "level",
+				"previous": "Platox"
+		}],
+	},
+	"locations": []
+}

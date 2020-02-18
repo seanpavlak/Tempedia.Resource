@@ -1,0 +1,107 @@
+{
+	"id": 115,
+	"name": "Oceara",
+	"types": ["Water"],
+	"standardIcon": "/images/standard/Oceara.png",
+	"standardGif": "/images/standard/Oceara.gif",
+	"lumaIcon": "/images/luma/Oceara.png",
+	"lumaGif": "/images/luma/Oceara.gif",
+	"cry": "/cry/Oceara.wav",
+	"tier": "A",
+	"stats": {
+		"hp": 64,
+		"sta": 42,
+		"spd": 100,
+		"atk": 54,
+		"def": 51,
+		"spatk": 110,
+		"spdef": 65,
+		"total": 486
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 1,
+		"atk": 0,
+		"def": 0,
+		"spatk": 2,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 29,
+		"High": 878,
+		"Wild": 209
+	},
+	"traits": ["Hydrologist", "Mithridatism"],
+	"details": {
+		"height": {
+			"cm": 222,
+			"inches": 87
+		},
+		"weight": {
+			"kg": 52,
+			"lbs": 114
+		},
+		"gender": {
+			"female": 0.90,
+			"male": 0.10
+		}
+	},
+	"techniques": [{
+		"name": "Kick",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "High-pressure Water",
+		"source": "Levelling",
+		"levels": 10
+	}, {
+		"name": "Tsunami",
+		"source": "Levelling",
+		"levels": 15
+	}, {
+		"name": "Ice Shuriken",
+		"source": "Levelling",
+		"levels": 20
+	}, {
+		"name": "Blizzard",
+		"source": "Levelling",
+		"levels": 28
+	}, {
+		"name": "Flood",
+		"source": "Levelling",
+		"levels": 37
+	}, {
+		"name": "Aquatic Whirlwind",
+		"source": "Levelling",
+		"levels": 45
+	}],
+	"evolution": {
+		"evolves": false
+	},
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+			"id": 115,
+			"name": "Oceara",
+			"stage": 0
+		}],
+	},
+	"locations": [{
+		"location": "Saipark",
+		"island": "Deniz",
+		"frequency": 0.30,
+		"level": {
+			"min": 38,
+			"max": 41
+		}
+	} {
+		"location": "Aguamarina Caves",
+		"island": "Deniz",
+		"frequency": 0.05,
+		"level": {
+			"min": 15,
+			"max": 22
+		}
+	}]
+}

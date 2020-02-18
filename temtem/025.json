@@ -1,0 +1,137 @@
+{
+	"id": 25,
+	"name": "Fomu",
+	"types": ["Water"],
+	"standardIcon": "/images/standard/Fomu.png",
+	"standardGif": "/images/standard/Fomu.gif",
+	"lumaIcon": "/images/luma/Fomu.png",
+	"lumaGif": "/images/luma/Fomu.gif",
+	"cry": "/cry/Fomu.wav",
+	"tier": "E",
+	"stats": {
+		"hp": 40,
+		"sta": 60,
+		"spd": 40,
+		"atk": 30,
+		"def": 35,
+		"spatk": 65,
+		"spdef": 70,
+		"total": 340
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 0,
+		"atk": 0,
+		"def": 0,
+		"spatk": 0,
+		"spdef": 2
+	},
+	"freetem": {
+		"low": 22,
+		"High": 220,
+		"Wild": 50
+	},
+	"traits": ["Amphibian", "Hydrologist"],
+	"details": {
+		"height": {
+			"cm": 58,
+			"inches": 22
+		},
+		"weight": {
+			"kg": 12,
+			"lbs": 26
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Bubbles",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Head Charge",
+		"source": "Levelling",
+		"levels": 2
+	}, {
+		"name": "Tenderness",
+		"source": "Levelling",
+		"levels": 4
+	}, {
+		"name": "Ice Cubes",
+		"source": "Levelling",
+		"levels": 9
+	}, {
+		"name": "Drill Impact",
+		"source": "Levelling",
+		"levels": 27
+	}, {
+		"name": "Tsunami",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Noxious Bomb",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Awful Song",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Ice Shuriken",
+		"source": "Breeding"
+	}, {
+		"name": "Lullaby",
+		"source": "Breeding"
+	}, {
+		"name": "Sharp Rain",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+			"id": 25,
+			"name": "Fomu",
+			"stage": 0
+		}, {
+			"id": 26,
+			"name": "Wiplump",
+			"stage": 1,
+			"levels": 20,
+			"method": "level",
+			"previous": "Fomu"
+		}],
+	},
+	"locations": [{
+		"location": "The Gifted Bridges",
+		"island": "Deniz",
+		"frequency": 0.80,
+		"level": {
+			"min": 12,
+			"max": 25
+		}
+	}, {
+		"location": "Sillaro River",
+		"island": "Deniz",
+		"frequency": 0.50,
+		"level": {
+			"min": 13,
+			"max": 15
+		}
+	}, {
+		"location": "Windward Fort",
+		"island": "Deniz",
+		"frequency": 0.10,
+		"level": {
+			"min": 9,
+			"max": 14
+		}
+	}, {
+		"location": "Aguamarina Caves",
+		"island": "Deniz",
+		"frequency": 0.25,
+		"level": {
+			"min": 19,
+			"max": 22
+		}
+	}]
+}

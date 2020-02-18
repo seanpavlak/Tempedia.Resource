@@ -1,0 +1,150 @@
+{
+	"id": 16,
+	"name": "Paharo",
+	"types": ["Wind"],
+	"standardIcon": "/images/standard/Paharo.png",
+	"standardGif": "/images/standard/Paharo.gif",
+	"lumaIcon": "/images/luma/Paharo.png",
+	"lumaGif": "/images/luma/Paharo.gif",
+	"cry": "/cry/Paharo.wav",
+	"tier": "E",
+	"stats": {
+		"hp": 48,
+		"sta": 18,
+		"spd": 60,
+		"atk": 40,
+		"def": 40,
+		"spatk": 50,
+		"spdef": 50,
+		"total": 306
+	},
+	"tv": {
+		"hp": 1,
+		"sta": 0,
+		"spd": 0,
+		"atk": 0,
+		"def": 0,
+		"spatk": 0,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 22,
+		"High": 178,
+		"Wild": 36
+	},
+	"traits": ["Hover", "Friendship"],
+	"details": {
+		"height": {
+			"cm": 75,
+			"inches": 29
+		},
+		"weight": {
+			"kg": 8,
+			"lbs": 17
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Peck",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Stare",
+		"source": "Levelling",
+		"levels": 2
+	}, {
+		"name": "Hypnosis",
+		"source": "Levelling",
+		"levels": 5
+	}, {
+		"name": "Wind Blade",
+		"source": "Levelling",
+		"levels": 7
+	}, {
+		"name": "Wind Burst",
+		"source": "Levelling",
+		"levels": 10
+	}, {
+		"name": "Cheer Up",
+		"source": "Levelling",
+		"levels": 14
+	}, {
+		"name": "Feather Gatling",
+		"source": "Levelling",
+		"levels": 19
+	}, {
+		"name": "Hypoxia",
+		"source": "Levelling",
+		"levels": 26
+	}, {
+		"name": "Tornado",
+		"source": "Levelling",
+		"levels": 38
+	}, {
+		"name": "Turbo Choreography",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Wake Up",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Misogi",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Hyperkinetic Strike",
+		"source": "Breeding"
+	}, {
+		"name": "Humiliating Slap",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+				"id": 16,
+				"name": "Paharo",
+				"stage": 0
+		}, {
+				"id": 17,
+				"name": "Paharac",
+				"stage": 1,
+				"levels": 7,
+				"method": "level",
+				"previous": "Paharo"
+		},
+			{
+				"id": 18,
+				"name": "Granpah",
+				"stage": 2,
+				"levels": 16,
+				"method": "level",
+				"previous": "Paharac"
+		}],
+	},
+	"locations": [{
+		"location": "Prasine Coast",
+		"island": "Deniz",
+		"frequency": 0.20,
+		"level": {
+			"min": 2,
+			"max": 7
+		}
+	}, {
+		"location": "Thalassian Cliffs",
+		"island": "Deniz",
+		"frequency": 0.90,
+		"level": {
+			"min": 4,
+			"max": 6
+		}
+	}, {
+		"location": "The Gifted Bridges",
+		"island": "Deniz",
+		"frequency": 0.60,
+		"level": {
+			"min": 7,
+			"max": 10
+		}
+	}]
+}

@@ -1,0 +1,115 @@
+{
+	"id": 61,
+	"name": "Piraniant",
+	"types": ["Water"],
+	"standardIcon": "/images/standard/Piraniant.png",
+	"standardGif": "/images/standard/Piraniant.gif",
+	"lumaIcon": "/images/luma/Piraniant.png",
+	"lumaGif": "/images/luma/Piraniant.gif",
+	"cry": "/cry/Piraniant.wav",
+	"tier": "D",
+	"stats": {
+		"hp": 80,
+		"sta": 50,
+		"spd": 55,
+		"atk": 77,
+		"def": 85,
+		"spatk": 65,
+		"spdef": 37,
+		"total": 449
+	},
+	"tv": {
+		"hp": 2,
+		"sta": 0,
+		"spd": 0,
+		"atk": 0,
+		"def": 0,
+		"spatk": 0,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 23,
+		"High": 136,
+		"Wild": 0
+	},
+	"traits": ["Patient", "Energy Reserves"],
+	"details": {
+		"height": {
+			"cm": 200,
+			"inches": 78
+		},
+		"weight": {
+			"kg": 230,
+			"lbs": 507
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Head Charge",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Bubbles",
+		"source": "Levelling",
+		"levels": 3
+	}, {
+		"name": "Finbeat",
+		"source": "Levelling",
+		"levels": 5
+	}, {
+		"name": "Water Blade",
+		"source": "Levelling",
+		"levels": 9
+	}, {
+		"name": "Jaw Strike",
+		"source": "Levelling",
+		"levels": 11
+	}, {
+		"name": "Cheer Up",
+		"source": "Levelling",
+		"levels": 16
+	}, {
+		"name": "Humiliating Slap",
+		"source": "Levelling",
+		"levels": 26
+	}, {
+		"name": "Aquatic Whirlwind",
+		"source": "Levelling",
+		"levels": 35
+	}, {
+		"name": "Rend",
+		"source": "Levelling",
+		"levels": 46
+	}, {
+		"name": "Tsunami",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Noxious Bomb",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "High-pressure Water",
+		"source": "Breeding"
+	}, {
+		"name": "Flood",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 1,
+		"tree": [{
+			"id": 60,
+			"name": "Pewki",
+			"stage": 0
+		}, {
+			"id": 61,
+			"name": "Piraniant",
+			"stage": 1,
+			"levels": 13,
+			"method": "level",
+			"previous": "Pewki"
+		}],
+	},
+	"locations": []
+}

@@ -1,0 +1,136 @@
+{
+	"id": 37,
+	"name": "Banapi",
+	"types": ["Fire"],
+	"standardIcon": "/images/standard/Banapi.png",
+	"standardGif": "/images/standard/Banapi.gif",
+	"lumaIcon": "/images/luma/Banapi.png",
+	"lumaGif": "/images/luma/Banapi.gif",
+	"cry": "/cry/Banapi.wav",
+	"tier": "E",
+	"stats": {
+		"hp": 42,
+		"sta": 40,
+		"spd": 70,
+		"atk": 50,
+		"def": 50,
+		"spatk": 40,
+		"spdef": 41,
+		"total": 333
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 2,
+		"atk": 0,
+		"def": 0,
+		"spatk": 0,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 22,
+		"High": 220,
+		"Wild": 90
+	},
+	"traits": ["Pyromaniac", "Settling"],
+	"details": {
+		"height": {
+			"cm": 90,
+			"inches": 35
+		},
+		"weight": {
+			"kg": 45,
+			"lbs": 99
+		},
+		"gender": {
+			"female": 0.40,
+			"male": 0.60
+		}
+	},
+	"techniques": [{
+		"name": "Kick",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Heavy Blow",
+		"source": "Levelling",
+		"levels": 4
+	}, {
+		"name": "Warm Cuddle",
+		"source": "Levelling",
+		"levels": 7
+	}, {
+		"name": "Sand Splatter",
+		"source": "Levelling",
+		"levels": 8
+	}, {
+		"name": "Head Ram",
+		"source": "Levelling",
+		"levels": 13
+	}, {
+		"name": "Embers",
+		"source": "Levelling",
+		"levels": 17
+	}, {
+		"name": "Rampage",
+		"source": "Levelling",
+		"levels": 23
+	}, {
+		"name": "Fire Tornado",
+		"source": "Levelling",
+		"levels": 27
+	}, {
+		"name": "Heat Up",
+		"source": "Levelling",
+		"levels": 37
+	}, {
+		"name": "Magma Cannon",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Block",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Roar",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+			"id": 37,
+			"name": "Banapi",
+			"stage": 0
+		}, {
+			"id": 38,
+			"name": "Capyre",
+			"stage": 1,
+			"levels": 17,
+			"method": "level",
+			"previous": "Banapi"
+		}],
+	},
+	"locations": [{
+		"location": "The Hangroad",
+		"island": "Omninesia",
+		"frequency": 0.65,
+		"level": {
+			"min": 14,
+			"max": 19
+		}
+	}, {
+		"location": "The Glassyway",
+		"island": "Omninesia",
+		"frequency": 0.30,
+		"level": {
+			"min": 20,
+			"max": 35
+		}
+	}, {
+		"location": "Anak Volcano",
+		"island": "Omninesia",
+		"frequency": 0.10,
+		"level": {
+			"min": 22,
+			"max": 24
+		}
+	}]
+}

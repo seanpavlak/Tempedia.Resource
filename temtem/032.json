@@ -1,0 +1,107 @@
+{
+	"id": 32,
+	"name": "Houchic",
+	"types": ["Mental"],
+	"standardIcon": "/images/standard/Houchic.png",
+	"standardGif": "/images/standard/Houchic.gif",
+	"lumaIcon": "/images/luma/Houchic.png",
+	"lumaGif": "/images/luma/Houchic.gif",
+	"cry": "/cry/Houchic.wav",
+	"tier": "E",
+	"stats": {
+		"hp": 38,
+		"sta": 44,
+		"spd": 66,
+		"atk": 40,
+		"def": 41,
+		"spatk": 72,
+		"spdef": 52,
+		"total": 353
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 0,
+		"atk": 0,
+		"def": 0,
+		"spatk": 1,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 24,
+		"High": 395,
+		"Wild": 0
+	},
+	"traits": ["Mental Alliance", "Soft Touch"],
+	"details": {
+		"height": {
+			"cm": 110,
+			"inches": 43
+		},
+		"weight": {
+			"kg": 24,
+			"lbs": 52
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Hypnosis",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Psy Wave",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Kick",
+		"source": "Levelling",
+		"levels": 4
+	}, {
+		"name": "Tenderness",
+		"source": "Levelling",
+		"levels": 8
+	}, {
+		"name": "Energy Manipulation",
+		"source": "Levelling",
+		"levels": 11
+	}, {
+		"name": "Telekinetic Shrapnel",
+		"source": "Levelling",
+		"levels": 16
+	}, {
+		"name": "Beta Burst",
+		"source": "Levelling",
+		"levels": 20
+	}, {
+		"name": "Psy Surge",
+		"source": "Levelling",
+		"levels": 28
+	}, {
+		"name": "Humiliating Slap",
+		"source": "Levelling",
+		"levels": 34
+	}, {
+		"name": "Lullaby",
+		"source": "Levelling",
+		"levels": 42
+	}],
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+			"id": 32,
+			"name": "Houchic",
+			"stage": 0
+		}, {
+			"id": 33,
+			"name": "Tental",
+			"stage": 1,
+			"levels": 29,
+			"method": "level",
+			"previous": "Houchic"
+		}],
+	},
+	"locations": []
+}

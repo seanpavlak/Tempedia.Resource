@@ -1,0 +1,115 @@
+{
+	"id": 105,
+	"name": "Toxolotl",
+	"types": ["Toxic"],
+	"standardIcon": "/images/standard/Toxolotl.png",
+	"standardGif": "/images/standard/Toxolotl.gif",
+	"lumaIcon": "/images/luma/Toxolotl.png",
+	"lumaGif": "/images/luma/Toxolotl.gif",
+	"cry": "/cry/Toxolotl.wav",
+	"tier": "E",
+	"stats": {
+		"hp": 59,
+		"sta": 40,
+		"spd": 47,
+		"atk": 50,
+		"def": 64,
+		"spatk": 65,
+		"spdef": 37,
+		"total": 362
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 0,
+		"atk": 0,
+		"def": 0,
+		"spatk": 2,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 23,
+		"High": 270,
+		"Wild": 95
+	},
+	"traits": ["Power Nap", "Toxic Farewell"],
+	"details": {
+		"height": {
+			"cm": 106,
+			"inches": 41
+		},
+		"weight": {
+			"kg": 55,
+			"lbs": 121
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Scratch",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Hypnosis",
+		"source": "Levelling",
+		"levels": 3
+	}, {
+		"name": "Stare",
+		"source": "Levelling",
+		"levels": 8
+	}, {
+		"name": "Venomous Claws",
+		"source": "Levelling",
+		"levels": 15
+	}, {
+		"name": "Toxic Ink",
+		"source": "Levelling",
+		"levels": 24
+	}, {
+		"name": "Tentacle Whip",
+		"source": "Levelling",
+		"levels": 30
+	}, {
+		"name": "Harmful Lick",
+		"source": "Levelling",
+		"levels": 39
+	}, {
+		"name": "Turbo Choreography",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Noxious Bomb",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Madness Buff",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Narcoleptic Hit",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 0,
+		"tree": [{
+			"id": 105,
+			"name": "Toxolotl",
+			"stage": 0
+		}, {
+			"id": 106,
+			"name": "Noxolotl",
+			"stage": 1,
+			"levels": 30,
+			"method": "level",
+			"previous": "Toxolotl"
+		}],
+	},
+	"locations": [{
+		"location": "Xolot Reservoir",
+		"island": "Tucma",
+		"frequency": 0.50,
+		"level": {
+			"min": 26,
+			"max": 30
+		}
+	}]
+}

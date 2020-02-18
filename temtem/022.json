@@ -1,0 +1,126 @@
+{
+	"id": 22,
+	"name": "Mudrid",
+	"types": ["Earth", "Crystal"],
+	"standardIcon": "/images/standard/Mudrid.png",
+	"standardGif": "/images/standard/Mudrid.gif",
+	"lumaIcon": "/images/luma/Mudrid.png",
+	"lumaGif": "/images/luma/Mudrid.gif",
+	"cry": "/cry/Mudrid.wav",
+	"tier": "B",
+	"stats": {
+		"hp": 85,
+		"sta": 44,
+		"spd": 95,
+		"atk": 60,
+		"def": 42,
+		"spatk": 75,
+		"spdef": 50,
+		"total": 451
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 3,
+		"atk": 0,
+		"def": 0,
+		"spatk": 0,
+		"spdef": 0
+	},
+	"freetem": {
+		"low": 24,
+		"High": 354,
+		"Wild": 140
+	},
+	"traits": ["Receptive", "Resistant"],
+	"details": {
+		"height": {
+			"cm": 150,
+			"inches": 59
+		},
+		"weight": {
+			"kg": 75,
+			"lbs": 165
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Scratch",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Nibble",
+		"source": "Levelling",
+		"levels": 3
+	}, {
+		"name": "Tenderness",
+		"source": "Levelling",
+		"levels": 5
+	}, {
+		"name": "Crystal Dust",
+		"source": "Levelling",
+		"levels": 7
+	}, {
+		"name": "Sand Splatter",
+		"source": "Levelling",
+		"levels": 10
+	}, {
+		"name": "Mud Shower",
+		"source": "Levelling",
+		"levels": 15
+	}, {
+		"name": "Head Ram",
+		"source": "Levelling",
+		"levels": 22
+	}, {
+		"name": "Stone Ball",
+		"source": "Levelling",
+		"levels": 35
+	}, {
+		"name": "Earth Wave",
+		"source": "Levelling",
+		"levels": 47
+	}, {
+		"name": "Turbo Choreography",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Rend",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Footwork",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Dust Vortex",
+		"source": "Breeding"
+	}, {
+		"name": "Crystal Bite",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 1,
+		"tree": [{
+			"id": 21,
+			"name": "Bunbun",
+			"stage": 0
+		}, {
+			"id": 22,
+			"name": "Mudrid",
+			"stage": 1,
+			"levels": 20,
+			"method": "level",
+			"previous": "Bunbun"
+		}],
+	},
+	"locations": [{
+		"location": "Mines of Mictlan",
+		"island": "Tucma",
+		"frequency": 0.05,
+		"level": {
+			"min": 32,
+			"max": 36
+		}
+	}]
+}

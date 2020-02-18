@@ -1,0 +1,116 @@
+{
+	"id": 110,
+	"name": "Volarend",
+	"types": ["Toxic", "Wind"],
+	"standardIcon": "/images/standard/Volarend.png",
+	"standardGif": "/images/standard/Volarend.gif",
+	"lumaIcon": "/images/luma/Volarend.png",
+	"lumaGif": "/images/luma/Volarend.gif",
+	"cry": "/cry/Volarend.wav",
+	"tier": "S",
+	"stats": {
+		"hp": 69,
+		"sta": 38,
+		"spd": 74,
+		"atk": 51,
+		"def": 61,
+		"spatk": 68,
+		"spdef": 96,
+		"total": 457
+	},
+	"tv": {
+		"hp": 0,
+		"sta": 0,
+		"spd": 0,
+		"atk": 0,
+		"def": 0,
+		"spatk": 0,
+		"spdef": 3
+	},
+	"freetem": {
+		"low": 24,
+		"High": 327,
+		"Wild": 140
+	},
+	"traits": ["Aerobic", "Anaerobic"],
+	"details": {
+		"height": {
+			"cm": 205,
+			"inches": 80
+		},
+		"weight": {
+			"kg": 92,
+			"lbs": 203
+		},
+		"gender": {
+			"female": 0.50,
+			"male": 0.50
+		}
+	},
+	"techniques": [{
+		"name": "Scratch",
+		"source": "Levelling",
+		"levels": 1
+	}, {
+		"name": "Wind Blade",
+		"source": "Levelling",
+		"levels": 6
+	}, {
+		"name": "Venomous Claws",
+		"source": "Levelling",
+		"levels": 10
+	}, {
+		"name": "Multiple Pecks",
+		"source": "Levelling",
+		"levels": 16
+	}, {
+		"name": "Blizzard",
+		"source": "Levelling",
+		"levels": 24
+	}, {
+		"name": "Toxic Plume",
+		"source": "Levelling",
+		"levels": 31
+	}, {
+		"name": "Tornado",
+		"source": "Levelling",
+		"levels": 39
+	}, {
+		"name": "Hyperkinetic Strike",
+		"source": "Levelling",
+		"levels": 46
+	}, {
+		"name": "Noxious Bomb",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Rend",
+		"source": "TechniqueCourses"
+	}, {
+		"name": "Feather Gatling",
+		"source": "Breeding"
+	}],
+	"evolution": {
+		"stage": 1,
+		"tree": [{
+			"id": 109,
+			"name": "Zephyruff",
+			"stage": 0
+    }, {
+			"id": 110,
+			"name": "Volarend",
+			"stage": 1,
+			"levels": 25,
+			"method": "level",
+			"previous": "Zephyruff"
+    }],
+	},
+	"locations": [{
+		"location": "Kupeleleza",
+		"island": "Tucma",
+		"frequency": 0.05,
+		"level": {
+			"min": 37,
+			"max": 39
+		}
+	}]
+}
