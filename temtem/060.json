@@ -1,135 +1,160 @@
 {
-	"id": 60,
-	"name": "Pewki",
-	"types": ["Water"],
-	"standardIcon": "/images/standard/Pewki.png",
-	"standardGif": "/images/standard/Pewki.gif",
-	"lumaIcon": "/images/luma/Pewki.png",
-	"lumaGif": "/images/luma/Pewki.gif",
-	"cry": "/cry/Pewki.wav",
-	"tier": "E",
-	"stats": {
-		"hp": 70,
-		"sta": 32,
-		"spd": 33,
-		"atk": 42,
-		"def": 45,
-		"spatk": 31,
-		"spdef": 10,
-		"total": 263
-	},
-	"tv": {
-		"hp": 1,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 22,
-		"High": 220,
-		"Wild": 60
-	},
-	"traits": ["Hydrologist", "Rested"],
-	"details": {
-		"height": {
-			"cm": 60,
-			"inches": 23
-		},
-		"weight": {
-			"kg": 15,
-			"lbs": 33
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Head Charge",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Bubbles",
-		"source": "Levelling",
-		"levels": 3
-	}, {
-		"name": "Finbeat",
-		"source": "Levelling",
-		"levels": 5
-	}, {
-		"name": "Water Blade",
-		"source": "Levelling",
-		"levels": 9
-	}, {
-		"name": "Jaw Strike",
-		"source": "Levelling",
-		"levels": 11
-	}, {
-		"name": "Cheer Up",
-		"source": "Levelling",
-		"levels": 16
-	}, {
-		"name": "Humiliating Slap",
-		"source": "Levelling",
-		"levels": 26
-	}, {
-		"name": "Aquatic Whirlwind",
-		"source": "Levelling",
-		"levels": 35
-	}, {
-		"name": "Tsunami",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Noxious Bomb",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "High-pressure Water",
-		"source": "Breeding"
-	}, {
-		"name": "Flood",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 0,
-		"tree": [{
-			"id": 60,
-			"name": "Pewki",
-			"stage": 0
-		}, {
-			"id": 61,
-			"name": "Piraniant",
-			"stage": 1,
-			"levels": 13,
-			"method": "level",
-			"previous": "Pewki"
-		}],
-	},
-	"locations": [{
-		"location": "Sillaro River",
-		"island": "Deniz",
-		"frequency": 0.30,
-		"level": {
-			"min": 13,
-			"max": 14
-		}
-	}, {
-		"location": "The Flywalk",
-		"island": "Omninesia",
-		"frequency": 0.65,
-		"level": {
-			"min": 18,
-			"max": 20
-		}
-	}, {
-		"location": "The Hangroad",
-		"island": "Omninesia",
-		"frequency": 0.65,
-		"level": {
-			"min": 14,
-			"max": 18
-		}
-	}]
+   "id":60,
+   "name":"Pewki",
+   "types":[
+      "Water"
+   ],
+   "standardIcon":"/images/standard/Pewki.png",
+   "standardGif":"/images/standard/Pewki.gif",
+   "lumaIcon":"/images/luma/Pewki.png",
+   "lumaGif":"/images/luma/Pewki.gif",
+   "cry":"/cry/Pewki.wav",
+   "tier":"E",
+   "stats":{
+      "hp":70,
+      "sta":32,
+      "spd":33,
+      "atk":42,
+      "def":45,
+      "spatk":31,
+      "spdef":10,
+      "total":263
+   },
+   "tv":{
+      "hp":1,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":0,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":22,
+      "High":220,
+      "Wild":60
+   },
+   "traits":[
+      "Hydrologist",
+      "Rested"
+   ],
+   "details":{
+      "height":{
+         "cm":60,
+         "inches":23
+      },
+      "weight":{
+         "kg":15,
+         "lbs":33
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Head Charge",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Bubbles",
+         "source":"Levelling",
+         "levels":3
+      },
+      {
+         "name":"Finbeat",
+         "source":"Levelling",
+         "levels":5
+      },
+      {
+         "name":"Water Blade",
+         "source":"Levelling",
+         "levels":9
+      },
+      {
+         "name":"Jaw Strike",
+         "source":"Levelling",
+         "levels":11
+      },
+      {
+         "name":"Cheer Up",
+         "source":"Levelling",
+         "levels":16
+      },
+      {
+         "name":"Humiliating Slap",
+         "source":"Levelling",
+         "levels":26
+      },
+      {
+         "name":"Aquatic Whirlwind",
+         "source":"Levelling",
+         "levels":35
+      },
+      {
+         "name":"Tsunami",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Noxious Bomb",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"High-pressure Water",
+         "source":"Breeding"
+      },
+      {
+         "name":"Flood",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":0,
+      "tree":[
+         {
+            "id":60,
+            "name":"Pewki",
+            "stage":0
+         },
+         {
+            "id":61,
+            "name":"Piraniant",
+            "stage":1,
+            "levels":13,
+            "method":"level",
+            "previous":"Pewki"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"Sillaro River",
+         "island":"Deniz",
+         "frequency":0.30,
+         "level":{
+            "min":13,
+            "max":14
+         }
+      },
+      {
+         "location":"The Flywalk",
+         "island":"Omninesia",
+         "frequency":0.65,
+         "level":{
+            "min":18,
+            "max":20
+         }
+      },
+      {
+         "location":"The Hangroad",
+         "island":"Omninesia",
+         "frequency":0.65,
+         "level":{
+            "min":14,
+            "max":18
+         }
+      }
+   ]
 }

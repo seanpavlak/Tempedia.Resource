@@ -1,148 +1,173 @@
 {
-	"id": 102,
-	"name": "Spriole",
-	"types": ["Nature"],
-	"standardIcon": "/images/standard/Spriole.png",
-	"standardGif": "/images/standard/Spriole.gif",
-	"lumaIcon": "/images/luma/Spriole.png",
-	"lumaGif": "/images/luma/Spriole.gif",
-	"cry": "/cry/Spriole.wav",
-	"tier": "E",
-	"stats": {
-		"hp": 72,
-		"sta": 38,
-		"spd": 65,
-		"atk": 42,
-		"def": 70,
-		"spatk": 37,
-		"spdef": 31,
-		"total": 355
-	},
-	"tv": {
-		"hp": 1,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 1,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 22,
-		"High": 187,
-		"Wild": 64
-	},
-	"traits": ["Camaraderie", "Botanist"],
-	"details": {
-		"height": {
-			"cm": 74,
-			"inches": 29
-		},
-		"weight": {
-			"kg": 20,
-			"lbs": 44
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Shy Shield",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Nibble",
-		"source": "Levelling",
-		"levels": 5
-	}, {
-		"name": "Roots",
-		"source": "Levelling",
-		"levels": 8
-	}, {
-		"name": "Sharp Leaf",
-		"source": "Levelling",
-		"levels": 11
-	}, {
-		"name": "Allergic Spread",
-		"source": "Levelling",
-		"levels": 17
-	}, {
-		"name": "Rampage",
-		"source": "Levelling",
-		"levels": 27
-	}, {
-		"name": "Revitalize",
-		"source": "Levelling",
-		"levels": 36
-	}, {
-		"name": "Spores",
-		"source": "Breeding"
-	}, {
-		"name": "Frond Whip",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 0,
-		"tree": [{
-			"id": 102,
-			"name": "Spriole",
-			"stage": 0
-		}, {
-			"id": 103,
-			"name": "Deendre",
-			"stage": 1,
-			"levels": 12,
-			"method": "level",
-			"previous": "Spriole"
-		}, {
-			"id": 104,
-			"name": "Cerneaf",
-			"stage": 1,
-			"levels": 25,
-			"method": "level",
-			"previous": "Deendre"
-		}],
-	},
-	"locations": [{
-		"location": "The Canopath",
-		"island": "Omninesia",
-		"frequency": 0.40,
-		"level": {
-			"min": 14,
-			"max": 17
-		}
-	}, {
-		"location": "The Flywalk",
-		"island": "Omninesia",
-		"frequency": 0.70,
-		"level": {
-			"min": 16,
-			"max": 18
-		}
-	}, {
-		"location": "The Hangroad",
-		"island": "Omninesia",
-		"frequency": 0.30,
-		"level": {
-			"min": 14,
-			"max": 22
-		}
-	}, {
-		"location": "The Glassyway",
-		"island": "Omninesia",
-		"frequency": 0.40,
-		"level": {
-			"min": 20,
-			"max": 23
-		}
-	}, {
-		"location": "Giant Banyan",
-		"island": "Omninesia",
-		"frequency": 0.55,
-		"level": {
-			"min": 23,
-			"max": 26
-		}
-	}]
+   "id":102,
+   "name":"Spriole",
+   "types":[
+      "Nature"
+   ],
+   "standardIcon":"/images/standard/Spriole.png",
+   "standardGif":"/images/standard/Spriole.gif",
+   "lumaIcon":"/images/luma/Spriole.png",
+   "lumaGif":"/images/luma/Spriole.gif",
+   "cry":"/cry/Spriole.wav",
+   "tier":"E",
+   "stats":{
+      "hp":72,
+      "sta":38,
+      "spd":65,
+      "atk":42,
+      "def":70,
+      "spatk":37,
+      "spdef":31,
+      "total":355
+   },
+   "tv":{
+      "hp":1,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":1,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":22,
+      "High":187,
+      "Wild":64
+   },
+   "traits":[
+      "Camaraderie",
+      "Botanist"
+   ],
+   "details":{
+      "height":{
+         "cm":74,
+         "inches":29
+      },
+      "weight":{
+         "kg":20,
+         "lbs":44
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Shy Shield",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Nibble",
+         "source":"Levelling",
+         "levels":5
+      },
+      {
+         "name":"Roots",
+         "source":"Levelling",
+         "levels":8
+      },
+      {
+         "name":"Sharp Leaf",
+         "source":"Levelling",
+         "levels":11
+      },
+      {
+         "name":"Allergic Spread",
+         "source":"Levelling",
+         "levels":17
+      },
+      {
+         "name":"Rampage",
+         "source":"Levelling",
+         "levels":27
+      },
+      {
+         "name":"Revitalize",
+         "source":"Levelling",
+         "levels":36
+      },
+      {
+         "name":"Spores",
+         "source":"Breeding"
+      },
+      {
+         "name":"Frond Whip",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":0,
+      "tree":[
+         {
+            "id":102,
+            "name":"Spriole",
+            "stage":0
+         },
+         {
+            "id":103,
+            "name":"Deendre",
+            "stage":1,
+            "levels":12,
+            "method":"level",
+            "previous":"Spriole"
+         },
+         {
+            "id":104,
+            "name":"Cerneaf",
+            "stage":1,
+            "levels":25,
+            "method":"level",
+            "previous":"Deendre"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"The Canopath",
+         "island":"Omninesia",
+         "frequency":0.40,
+         "level":{
+            "min":14,
+            "max":17
+         }
+      },
+      {
+         "location":"The Flywalk",
+         "island":"Omninesia",
+         "frequency":0.70,
+         "level":{
+            "min":16,
+            "max":18
+         }
+      },
+      {
+         "location":"The Hangroad",
+         "island":"Omninesia",
+         "frequency":0.30,
+         "level":{
+            "min":14,
+            "max":22
+         }
+      },
+      {
+         "location":"The Glassyway",
+         "island":"Omninesia",
+         "frequency":0.40,
+         "level":{
+            "min":20,
+            "max":23
+         }
+      },
+      {
+         "location":"Giant Banyan",
+         "island":"Omninesia",
+         "frequency":0.55,
+         "level":{
+            "min":23,
+            "max":26
+         }
+      }
+   ]
 }

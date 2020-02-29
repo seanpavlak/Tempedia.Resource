@@ -1,141 +1,169 @@
 {
-	"id": 26,
-	"name": "Wiplump",
-	"types": ["Water", "Wind"],
-	"standardIcon": "/images/standard/Wiplump.png",
-	"standardGif": "/images/standard/Wiplump.gif",
-	"lumaIcon": "/images/luma/Wiplump.png",
-	"lumaGif": "/images/luma/Wiplump.gif",
-	"cry": "/cry/Wiplump.wav",
-	"tier": "C",
-	"stats": {
-		"hp": 66,
-		"sta": 80,
-		"spd": 70,
-		"atk": 40,
-		"def": 50,
-		"spatk": 95,
-		"spdef": 80,
-		"total": 481
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 0,
-		"spatk": 2,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 24,
-		"High": 354,
-		"Wild": 154
-	},
-	"traits": ["Plethoric", "Patient"],
-	"details": {
-		"height": {
-			"cm": 125,
-			"inches": 49
-		},
-		"weight": {
-			"kg": 28,
-			"lbs": 61
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Bubbles",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Head Charge",
-		"source": "Levelling",
-		"levels": 2
-	}, {
-		"name": "Tenderness",
-		"source": "Levelling",
-		"levels": 4
-	}, {
-		"name": "Ice Cubes",
-		"source": "Levelling",
-		"levels": 9
-	}, {
-		"name": "Blizzard",
-		"source": "Levelling",
-		"levels": 17
-	}, {
-		"name": "Cold Breeze",
-		"source": "Levelling",
-		"levels": 23
-	}, {
-		"name": "Drill Impact",
-		"source": "Levelling",
-		"levels": 27
-	}, {
-		"name": "Tornado",
-		"source": "Levelling",
-		"levels": 42
-	}, {
-		"name": "Tsunami",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Noxious Bomb",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Awful Song",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Ice Shuriken",
-		"source": "Breeding"
-	}, {
-		"name": "Lullaby",
-		"source": "Breeding"
-	}, {
-		"name": "Sharp Rain",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 1,
-		"tree": [{
-			"id": 25,
-			"name": "Fomu",
-			"stage": 0
-		}, {
-			"id": 26,
-			"name": "Wiplump",
-			"stage": 1,
-			"levels": 20,
-			"method": "level",
-			"previous": "Fomu"
-		}],
-	},
-	"locations": [{
-		"location": "Sillaro River",
-		"island": "Deniz",
-		"frequency": 0.05,
-		"level": {
-			"min": 14,
-			"max": 15
-		}
-	}, {
-		"location": "Mines of Mictlan",
-		"island": "Tucma",
-		"frequency": 0.15,
-		"level": {
-			"min": 37,
-			"max": 40
-		}
-	}, {
-		"location": "Kakama Cenote",
-		"island": "Tucma",
-		"frequency": 0.40,
-		"level": {
-			"min": 37,
-			"max": 40
-		}
-	}]
+   "id":26,
+   "name":"Wiplump",
+   "types":[
+      "Water",
+      "Wind"
+   ],
+   "standardIcon":"/images/standard/Wiplump.png",
+   "standardGif":"/images/standard/Wiplump.gif",
+   "lumaIcon":"/images/luma/Wiplump.png",
+   "lumaGif":"/images/luma/Wiplump.gif",
+   "cry":"/cry/Wiplump.wav",
+   "tier":"C",
+   "stats":{
+      "hp":66,
+      "sta":80,
+      "spd":70,
+      "atk":40,
+      "def":50,
+      "spatk":95,
+      "spdef":80,
+      "total":481
+   },
+   "tv":{
+      "hp":0,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":0,
+      "spatk":2,
+      "spdef":0
+   },
+   "freetem":{
+      "low":24,
+      "High":354,
+      "Wild":154
+   },
+   "traits":[
+      "Plethoric",
+      "Patient"
+   ],
+   "details":{
+      "height":{
+         "cm":125,
+         "inches":49
+      },
+      "weight":{
+         "kg":28,
+         "lbs":61
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Bubbles",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Head Charge",
+         "source":"Levelling",
+         "levels":2
+      },
+      {
+         "name":"Tenderness",
+         "source":"Levelling",
+         "levels":4
+      },
+      {
+         "name":"Ice Cubes",
+         "source":"Levelling",
+         "levels":9
+      },
+      {
+         "name":"Blizzard",
+         "source":"Levelling",
+         "levels":17
+      },
+      {
+         "name":"Cold Breeze",
+         "source":"Levelling",
+         "levels":23
+      },
+      {
+         "name":"Drill Impact",
+         "source":"Levelling",
+         "levels":27
+      },
+      {
+         "name":"Tornado",
+         "source":"Levelling",
+         "levels":42
+      },
+      {
+         "name":"Tsunami",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Noxious Bomb",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Awful Song",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Ice Shuriken",
+         "source":"Breeding"
+      },
+      {
+         "name":"Lullaby",
+         "source":"Breeding"
+      },
+      {
+         "name":"Sharp Rain",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":1,
+      "tree":[
+         {
+            "id":25,
+            "name":"Fomu",
+            "stage":0
+         },
+         {
+            "id":26,
+            "name":"Wiplump",
+            "stage":1,
+            "levels":20,
+            "method":"level",
+            "previous":"Fomu"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"Sillaro River",
+         "island":"Deniz",
+         "frequency":0.05,
+         "level":{
+            "min":14,
+            "max":15
+         }
+      },
+      {
+         "location":"Mines of Mictlan",
+         "island":"Tucma",
+         "frequency":0.15,
+         "level":{
+            "min":37,
+            "max":40
+         }
+      },
+      {
+         "location":"Kakama Cenote",
+         "island":"Tucma",
+         "frequency":0.40,
+         "level":{
+            "min":37,
+            "max":40
+         }
+      }
+   ]
 }

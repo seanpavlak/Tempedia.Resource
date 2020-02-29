@@ -1,124 +1,148 @@
 {
-	"id": 109,
-	"name": "Zephyruff",
-	"types": ["Toxic", "Wind"],
-	"standardIcon": "/images/standard/Zephyruff.png",
-	"standardGif": "/images/standard/Zephyruff.gif",
-	"lumaIcon": "/images/luma/Zephyruff.png",
-	"lumaGif": "/images/luma/Zephyruff.gif",
-	"cry": "/cry/Zephyruff.wav",
-	"tier": "E",
-	"stats": {
-		"hp": 58,
-		"sta": 34,
-		"spd": 68,
-		"atk": 43,
-		"def": 47,
-		"spatk": 50,
-		"spdef": 51,
-		"total": 351
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 0,
-		"spd": 1,
-		"atk": 0,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 22,
-		"High": 202,
-		"Wild": 88
-	},
-	"traits": ["Toxic Affinity", "Air Specialist"],
-	"details": {
-		"height": {
-			"cm": 92,
-			"inches": 36
-		},
-		"weight": {
-			"kg": 37,
-			"lbs": 82
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Scratch",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Wind Blade",
-		"source": "Levelling",
-		"levels": 6
-	}, {
-		"name": "Venomous Claws",
-		"source": "Levelling",
-		"levels": 10
-	}, {
-		"name": "Multiple Pecks",
-		"source": "Levelling",
-		"levels": 16
-	}, {
-		"name": "Blizzard",
-		"source": "Levelling",
-		"levels": 24
-	}, {
-		"name": "Toxic Plume",
-		"source": "Levelling",
-		"levels": 31
-	}, {
-		"name": "Tornado",
-		"source": "Levelling",
-		"levels": 39
-	}, {
-		"name": "Hyperkinetic Strike",
-		"source": "Levelling",
-		"levels": 46
-	}, {
-		"name": "Noxious Bomb",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Rend",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Feather Gatling",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 0,
-		"tree": [{
-			"id": 109,
-			"name": "Zephyruff",
-			"stage": 0
-    }, {
-			"id": 110,
-			"name": "Volarend",
-			"stage": 1,
-			"levels": 25,
-			"method": "level",
-			"previous": "Zephyruff"
-    }],
-	},
-	"locations": [{
-		"location": "Corrupted Badlands",
-		"island": "Tucma",
-		"frequency": 0.60,
-		"level": {
-			"min": 24,
-			"max": 28
-		}
-	}, {
-		"location": "Kupeleleza",
-		"island": "Tucma",
-		"frequency": 0.35,
-		"level": {
-			"min": 30,
-			"max": 37
-		}
-	}]
+   "id":109,
+   "name":"Zephyruff",
+   "types":[
+      "Toxic",
+      "Wind"
+   ],
+   "standardIcon":"/images/standard/Zephyruff.png",
+   "standardGif":"/images/standard/Zephyruff.gif",
+   "lumaIcon":"/images/luma/Zephyruff.png",
+   "lumaGif":"/images/luma/Zephyruff.gif",
+   "cry":"/cry/Zephyruff.wav",
+   "tier":"E",
+   "stats":{
+      "hp":58,
+      "sta":34,
+      "spd":68,
+      "atk":43,
+      "def":47,
+      "spatk":50,
+      "spdef":51,
+      "total":351
+   },
+   "tv":{
+      "hp":0,
+      "sta":0,
+      "spd":1,
+      "atk":0,
+      "def":0,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":22,
+      "High":202,
+      "Wild":88
+   },
+   "traits":[
+      "Toxic Affinity",
+      "Air Specialist"
+   ],
+   "details":{
+      "height":{
+         "cm":92,
+         "inches":36
+      },
+      "weight":{
+         "kg":37,
+         "lbs":82
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Scratch",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Wind Blade",
+         "source":"Levelling",
+         "levels":6
+      },
+      {
+         "name":"Venomous Claws",
+         "source":"Levelling",
+         "levels":10
+      },
+      {
+         "name":"Multiple Pecks",
+         "source":"Levelling",
+         "levels":16
+      },
+      {
+         "name":"Blizzard",
+         "source":"Levelling",
+         "levels":24
+      },
+      {
+         "name":"Toxic Plume",
+         "source":"Levelling",
+         "levels":31
+      },
+      {
+         "name":"Tornado",
+         "source":"Levelling",
+         "levels":39
+      },
+      {
+         "name":"Hyperkinetic Strike",
+         "source":"Levelling",
+         "levels":46
+      },
+      {
+         "name":"Noxious Bomb",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Rend",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Feather Gatling",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":0,
+      "tree":[
+         {
+            "id":109,
+            "name":"Zephyruff",
+            "stage":0
+         },
+         {
+            "id":110,
+            "name":"Volarend",
+            "stage":1,
+            "levels":25,
+            "method":"level",
+            "previous":"Zephyruff"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"Corrupted Badlands",
+         "island":"Tucma",
+         "frequency":0.60,
+         "level":{
+            "min":24,
+            "max":28
+         }
+      },
+      {
+         "location":"Kupeleleza",
+         "island":"Tucma",
+         "frequency":0.35,
+         "level":{
+            "min":30,
+            "max":37
+         }
+      }
+   ]
 }

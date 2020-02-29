@@ -1,127 +1,154 @@
 {
-	"id": 33,
-	"name": "Tental",
-	"types": ["Mental"],
-	"standardIcon": "/images/standard/Tental.png",
-	"standardGif": "/images/standard/Tental.gif",
-	"lumaIcon": "/images/luma/Tental.png",
-	"lumaGif": "/images/luma/Tental.gif",
-	"cry": "/cry/Tental.wav",
-	"tier": "C",
-	"stats": {
-		"hp": 41,
-		"sta": 51,
-		"spd": 76,
-		"atk": 42,
-		"def": 50,
-		"spatk": 81,
-		"spdef": 62,
-		"total": 403
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 0,
-		"spatk": 2,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 25,
-		"High": 449,
-		"Wild": 0
-	},
-	"traits": ["Water Affinity", "Avenger"],
-	"details": {
-		"height": {
-			"cm": 160,
-			"inches": 62
-		},
-		"weight": {
-			"kg": 58,
-			"lbs": 127
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Hypnosis",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Psy Wave",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Kick",
-		"source": "Levelling",
-		"levels": 4
-	}, {
-		"name": "Tenderness",
-		"source": "Levelling",
-		"levels": 8
-	}, {
-		"name": "Energy Manipulation",
-		"source": "Levelling",
-		"levels": 11
-	}, {
-		"name": "Telekinetic Shrapnel",
-		"source": "Levelling",
-		"levels": 14
-	}, {
-		"name": "Beta Burst",
-		"source": "Levelling",
-		"levels": 20
-	}, {
-		"name": "Psy Surge",
-		"source": "Levelling",
-		"levels": 28
-	}, {
-		"name": "Humiliating Slap",
-		"source": "Levelling",
-		"levels": 34
-	}, {
-		"name": "High-pressure Water",
-		"source": "Levelling",
-		"levels": 41
-	}, {
-		"name": "Lullaby",
-		"source": "Levelling",
-		"levels": 42
-	}, {
-		"name": "Ninja Jutsu",
-		"source": "Levelling",
-		"levels": 46
-	}, {
-		"name": "Awful Song",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Confiscate",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Block",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Madness Buff",
-		"source": "TechniqueCourses"
-	}],
-	"evolution": {
-		"stage": 1,
-		"tree": [{
-			"id": 32,
-			"name": "Houchic",
-			"stage": 0
-		}, {
-			"id": 33,
-			"name": "Tental",
-			"stage": 1,
-			"levels": 29,
-			"method": "level",
-			"previous": "Houchic"
-		}],
-	},
-	"locations": []
+   "id":33,
+   "name":"Tental",
+   "types":[
+      "Mental"
+   ],
+   "standardIcon":"/images/standard/Tental.png",
+   "standardGif":"/images/standard/Tental.gif",
+   "lumaIcon":"/images/luma/Tental.png",
+   "lumaGif":"/images/luma/Tental.gif",
+   "cry":"/cry/Tental.wav",
+   "tier":"C",
+   "stats":{
+      "hp":41,
+      "sta":51,
+      "spd":76,
+      "atk":42,
+      "def":50,
+      "spatk":81,
+      "spdef":62,
+      "total":403
+   },
+   "tv":{
+      "hp":0,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":0,
+      "spatk":2,
+      "spdef":0
+   },
+   "freetem":{
+      "low":25,
+      "High":449,
+      "Wild":0
+   },
+   "traits":[
+      "Water Affinity",
+      "Avenger"
+   ],
+   "details":{
+      "height":{
+         "cm":160,
+         "inches":62
+      },
+      "weight":{
+         "kg":58,
+         "lbs":127
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Hypnosis",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Psy Wave",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Kick",
+         "source":"Levelling",
+         "levels":4
+      },
+      {
+         "name":"Tenderness",
+         "source":"Levelling",
+         "levels":8
+      },
+      {
+         "name":"Energy Manipulation",
+         "source":"Levelling",
+         "levels":11
+      },
+      {
+         "name":"Telekinetic Shrapnel",
+         "source":"Levelling",
+         "levels":14
+      },
+      {
+         "name":"Beta Burst",
+         "source":"Levelling",
+         "levels":20
+      },
+      {
+         "name":"Psy Surge",
+         "source":"Levelling",
+         "levels":28
+      },
+      {
+         "name":"Humiliating Slap",
+         "source":"Levelling",
+         "levels":34
+      },
+      {
+         "name":"High-pressure Water",
+         "source":"Levelling",
+         "levels":41
+      },
+      {
+         "name":"Lullaby",
+         "source":"Levelling",
+         "levels":42
+      },
+      {
+         "name":"Ninja Jutsu",
+         "source":"Levelling",
+         "levels":46
+      },
+      {
+         "name":"Awful Song",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Confiscate",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Block",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Madness Buff",
+         "source":"TechniqueCourses"
+      }
+   ],
+   "evolution":{
+      "stage":1,
+      "tree":[
+         {
+            "id":32,
+            "name":"Houchic",
+            "stage":0
+         },
+         {
+            "id":33,
+            "name":"Tental",
+            "stage":1,
+            "levels":29,
+            "method":"level",
+            "previous":"Houchic"
+         }
+      ]
+   },
+   "locations":[
+
+   ]
 }

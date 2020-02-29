@@ -1,154 +1,184 @@
 {
-	"id": 11,
-	"name": "Loali",
-	"types": ["Nature", "Wind"],
-	"standardIcon": "/images/standard/Loali.png",
-	"standardGif": "/images/standard/Loali.gif",
-	"lumaIcon": "/images/luma/Loali.png",
-	"lumaGif": "/images/luma/Loali.gif",
-	"cry": "/cry/Loali.wav",
-	"tier": "C",
-	"stats": {
-		"hp": 55,
-		"sta": 80,
-		"spd": 80,
-		"atk": 60,
-		"def": 50,
-		"spatk": 70,
-		"spdef": 90,
-		"total": 485
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 1,
-		"spd": 1,
-		"atk": 0,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 23,
-		"High": 235,
-		"Wild": 74
-	},
-	"traits": ["Botanist", "Toxic Farewell"],
-	"details": {
-		"height": {
-			"cm": 60,
-			"inches": 23
-		},
-		"weight": {
-			"kg": 14,
-			"lbs": 30
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Shy Shield",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Tenderness",
-		"source": "Levelling",
-		"levels": 2
-	}, {
-		"name": "Urushiol",
-		"source": "Levelling",
-		"levels": 5
-	}, {
-		"name": "Wind Blade",
-		"source": "Levelling",
-		"levels": 11
-	}, {
-		"name": "Toxic Spores",
-		"source": "Levelling",
-		"levels": 14
-	}, {
-		"name": "Nimble",
-		"source": "Levelling",
-		"levels": 19
-	}, {
-		"name": "Photosynthesis",
-		"source": "Levelling",
-		"levels": 25
-	}, {
-		"name": "Blizzard",
-		"source": "Levelling",
-		"levels": 25
-	}, {
-		"name": "Bark Shield",
-		"source": "Levelling",
-		"levels": 35
-	}, {
-		"name": "Allergic Spread",
-		"source": "Levelling",
-		"levels": 44
-	}, {
-		"name": "Turbo Choreography",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Wake Up",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Misogi",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Spores",
-		"source": "Breeding"
-	}, {
-		"name": "Hypoxia",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 1,
-		"tree": [{
-			"id": 10,
-			"name": "Swali",
-			"stage": 0
-		}, {
-			"id": 11,
-			"name": "Loali",
-			"stage": 1,
-			"levels": 8,
-			"method": "level",
-			"previous": "Swali"
-		}],
-	},
-	"locations": [{
-		"location": "The Canopath",
-		"island": "Omninesia",
-		"frequency": 0.20,
-		"level": {
-			"min": 16,
-			"max": 19
-		}
-	}, {
-		"location": "The Flywalk",
-		"island": "Omninesia",
-		"frequency": 0.30,
-		"level": {
-			"min": 18,
-			"max": 25
-		}
-	}, {
-		"location": "The Hangroad",
-		"island": "Omninesia",
-		"frequency": 0.20,
-		"level": {
-			"min": 15,
-			"max": 20
-		}
-	}, {
-		"location": "The Glassyway",
-		"island": "Omninesia",
-		"frequency": 0.80,
-		"level": {
-			"min": 19,
-			"max": 22
-		}
-	}]
+   "id":11,
+   "name":"Loali",
+   "types":[
+      "Nature",
+      "Wind"
+   ],
+   "standardIcon":"/images/standard/Loali.png",
+   "standardGif":"/images/standard/Loali.gif",
+   "lumaIcon":"/images/luma/Loali.png",
+   "lumaGif":"/images/luma/Loali.gif",
+   "cry":"/cry/Loali.wav",
+   "tier":"C",
+   "stats":{
+      "hp":55,
+      "sta":80,
+      "spd":80,
+      "atk":60,
+      "def":50,
+      "spatk":70,
+      "spdef":90,
+      "total":485
+   },
+   "tv":{
+      "hp":0,
+      "sta":1,
+      "spd":1,
+      "atk":0,
+      "def":0,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":23,
+      "High":235,
+      "Wild":74
+   },
+   "traits":[
+      "Botanist",
+      "Toxic Farewell"
+   ],
+   "details":{
+      "height":{
+         "cm":60,
+         "inches":23
+      },
+      "weight":{
+         "kg":14,
+         "lbs":30
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Shy Shield",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Tenderness",
+         "source":"Levelling",
+         "levels":2
+      },
+      {
+         "name":"Urushiol",
+         "source":"Levelling",
+         "levels":5
+      },
+      {
+         "name":"Wind Blade",
+         "source":"Levelling",
+         "levels":11
+      },
+      {
+         "name":"Toxic Spores",
+         "source":"Levelling",
+         "levels":14
+      },
+      {
+         "name":"Nimble",
+         "source":"Levelling",
+         "levels":19
+      },
+      {
+         "name":"Photosynthesis",
+         "source":"Levelling",
+         "levels":25
+      },
+      {
+         "name":"Blizzard",
+         "source":"Levelling",
+         "levels":25
+      },
+      {
+         "name":"Bark Shield",
+         "source":"Levelling",
+         "levels":35
+      },
+      {
+         "name":"Allergic Spread",
+         "source":"Levelling",
+         "levels":44
+      },
+      {
+         "name":"Turbo Choreography",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Wake Up",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Misogi",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Spores",
+         "source":"Breeding"
+      },
+      {
+         "name":"Hypoxia",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":1,
+      "tree":[
+         {
+            "id":10,
+            "name":"Swali",
+            "stage":0
+         },
+         {
+            "id":11,
+            "name":"Loali",
+            "stage":1,
+            "levels":8,
+            "method":"level",
+            "previous":"Swali"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"The Canopath",
+         "island":"Omninesia",
+         "frequency":0.20,
+         "level":{
+            "min":16,
+            "max":19
+         }
+      },
+      {
+         "location":"The Flywalk",
+         "island":"Omninesia",
+         "frequency":0.30,
+         "level":{
+            "min":18,
+            "max":25
+         }
+      },
+      {
+         "location":"The Hangroad",
+         "island":"Omninesia",
+         "frequency":0.20,
+         "level":{
+            "min":15,
+            "max":20
+         }
+      },
+      {
+         "location":"The Glassyway",
+         "island":"Omninesia",
+         "frequency":0.80,
+         "level":{
+            "min":19,
+            "max":22
+         }
+      }
+   ]
 }

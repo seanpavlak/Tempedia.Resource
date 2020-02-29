@@ -1,112 +1,135 @@
 {
-	"id": 92,
-	"name": "Smazee",
-	"types": ["Melee"],
-	"standardIcon": "/images/standard/Smazee.png",
-	"standardGif": "/images/standard/Smazee.gif",
-	"lumaIcon": "/images/luma/Smazee.png",
-	"lumaGif": "/images/luma/Smazee.gif",
-	"cry": "/cry/Smazee.wav",
-	"tier": "E",
-	"stats": {
-		"hp": 49,
-		"sta": 55,
-		"spd": 66,
-		"atk": 69,
-		"def": 44,
-		"spatk": 37,
-		"spdef": 37,
-		"total": 357
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 0,
-		"spd": 0,
-		"atk": 2,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 25,
-		"High": 520,
-		"Wild": 0
-	},
-	"traits": ["Fever Rush", "Friendship"],
-	"details": {
-		"height": {
-			"cm": 96,
-			"inches": 37
-		},
-		"weight": {
-			"kg": 24,
-			"lbs": 54
-		},
-		"gender": {
-			"female": 0.35,
-			"male": 0.65
-		}
-	},
-	"techniques": [{
-		"name": "Kick",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Martial Strike",
-		"source": "Levelling",
-		"levels": 4
-	}, {
-		"name": "Tail Strike",
-		"source": "Levelling",
-		"levels": 8
-	}, {
-		"name": "Sand Splatter",
-		"source": "Levelling",
-		"levels": 10
-	}, {
-		"name": "Show Off",
-		"source": "Levelling",
-		"levels": 12
-	}, {
-		"name": "Uppercut",
-		"source": "Levelling",
-		"levels": 16
-	}, {
-		"name": "Intimidation",
-		"source": "Levelling",
-		"levels": 20
-	}, {
-		"name": "Perfect Jab",
-		"source": "Levelling",
-		"levels": 26
-	}, {
-		"name": "Heat Up",
-		"source": "Levelling",
-		"levels": 30
-	}, {
-		"name": "Stone Wall",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Misogi",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Earth Wave",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 0,
-		"tree": [{
-			"id": 92,
-			"name": "Smazee",
-			"stage": 0
-		}, {
-			"id": 93,
-			"name": "Baboong",
-			"stage": 1,
-			"levels": 29,
-			"method": "level",
-			"previous": "Smazee"
-		}],
-	},
-	"locations": []
+   "id":92,
+   "name":"Smazee",
+   "types":[
+      "Melee"
+   ],
+   "standardIcon":"/images/standard/Smazee.png",
+   "standardGif":"/images/standard/Smazee.gif",
+   "lumaIcon":"/images/luma/Smazee.png",
+   "lumaGif":"/images/luma/Smazee.gif",
+   "cry":"/cry/Smazee.wav",
+   "tier":"E",
+   "stats":{
+      "hp":49,
+      "sta":55,
+      "spd":66,
+      "atk":69,
+      "def":44,
+      "spatk":37,
+      "spdef":37,
+      "total":357
+   },
+   "tv":{
+      "hp":0,
+      "sta":0,
+      "spd":0,
+      "atk":2,
+      "def":0,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":25,
+      "High":520,
+      "Wild":0
+   },
+   "traits":[
+      "Fever Rush",
+      "Friendship"
+   ],
+   "details":{
+      "height":{
+         "cm":96,
+         "inches":37
+      },
+      "weight":{
+         "kg":24,
+         "lbs":54
+      },
+      "gender":{
+         "female":0.35,
+         "male":0.65
+      }
+   },
+   "techniques":[
+      {
+         "name":"Kick",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Martial Strike",
+         "source":"Levelling",
+         "levels":4
+      },
+      {
+         "name":"Tail Strike",
+         "source":"Levelling",
+         "levels":8
+      },
+      {
+         "name":"Sand Splatter",
+         "source":"Levelling",
+         "levels":10
+      },
+      {
+         "name":"Show Off",
+         "source":"Levelling",
+         "levels":12
+      },
+      {
+         "name":"Uppercut",
+         "source":"Levelling",
+         "levels":16
+      },
+      {
+         "name":"Intimidation",
+         "source":"Levelling",
+         "levels":20
+      },
+      {
+         "name":"Perfect Jab",
+         "source":"Levelling",
+         "levels":26
+      },
+      {
+         "name":"Heat Up",
+         "source":"Levelling",
+         "levels":30
+      },
+      {
+         "name":"Stone Wall",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Misogi",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Earth Wave",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":0,
+      "tree":[
+         {
+            "id":92,
+            "name":"Smazee",
+            "stage":0
+         },
+         {
+            "id":93,
+            "name":"Baboong",
+            "stage":1,
+            "levels":29,
+            "method":"level",
+            "previous":"Smazee"
+         }
+      ]
+   },
+   "locations":[
+
+   ]
 }

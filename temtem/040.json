@@ -1,122 +1,145 @@
 {
-	"id": 40,
-	"name": "Azuroc",
-	"types": ["Crystal"],
-	"standardIcon": "/images/standard/Azuroc.png",
-	"standardGif": "/images/standard/Azuroc.gif",
-	"lumaIcon": "/images/luma/Azuroc.png",
-	"lumaGif": "/images/luma/Azuroc.gif",
-	"cry": "/cry/Azuroc.wav",
-	"tier": "E",
-	"stats": {
-		"hp": 64,
-		"sta": 34,
-		"spd": 50,
-		"atk": 58,
-		"def": 69,
-		"spatk": 60,
-		"spdef": 62,
-		"total": 397
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 23,
-		"High": 293,
-		"Wild": 121
-	},
-	"traits": ["Mirroring", "Fainted Curse"],
-	"details": {
-		"height": {
-			"cm": 203,
-			"inches": 79
-		},
-		"weight": {
-			"kg": 95,
-			"lbs": 209
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Scratch",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Nibble",
-		"source": "Levelling",
-		"levels": 2
-	}, {
-		"name": "Glass Blade",
-		"source": "Levelling",
-		"levels": 6
-	}, {
-		"name": "Tail Strike",
-		"source": "Levelling",
-		"levels": 10
-	}, {
-		"name": "Sharp Stabs",
-		"source": "Levelling",
-		"levels": 15
-	}, {
-		"name": "Crystal Spikes",
-		"source": "Levelling",
-		"levels": 22
-	}, {
-		"name": "Madness Buff",
-		"source": "Levelling",
-		"levels": 28
-	}, {
-		"name": "Crystal Bite",
-		"source": "Levelling",
-		"levels": 37
-	}, {
-		"name": "Rend",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Footwork",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Diamond Fort",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 1,
-		"tree": [{
-			"id": 39,
-			"name": "Lapinite",
-			"stage": 0
-		}, {
-			"id": 40,
-			"name": "Azuroc",
-			"stage": 1,
-			"levels": 25,
-			"method": "level",
-			"previous": "Lapinite"
-		}, {
-			"id": 41,
-			"name": "Zenoreth",
-			"stage": 2,
-			"method": "trade",
-			"previous": "Azuroc"
-		}],
-	},
-	"locations": [{
-		"location": "Mines of Mictlan",
-		"island": "Tucma",
-		"frequency": 0.05,
-		"level": {
-			"min": 31,
-			"max": 37
-		}
-	}]
+   "id":40,
+   "name":"Azuroc",
+   "types":[
+      "Crystal"
+   ],
+   "standardIcon":"/images/standard/Azuroc.png",
+   "standardGif":"/images/standard/Azuroc.gif",
+   "lumaIcon":"/images/luma/Azuroc.png",
+   "lumaGif":"/images/luma/Azuroc.gif",
+   "cry":"/cry/Azuroc.wav",
+   "tier":"E",
+   "stats":{
+      "hp":64,
+      "sta":34,
+      "spd":50,
+      "atk":58,
+      "def":69,
+      "spatk":60,
+      "spdef":62,
+      "total":397
+   },
+   "tv":{
+      "hp":0,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":0,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":23,
+      "High":293,
+      "Wild":121
+   },
+   "traits":[
+      "Mirroring",
+      "Fainted Curse"
+   ],
+   "details":{
+      "height":{
+         "cm":203,
+         "inches":79
+      },
+      "weight":{
+         "kg":95,
+         "lbs":209
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Scratch",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Nibble",
+         "source":"Levelling",
+         "levels":2
+      },
+      {
+         "name":"Glass Blade",
+         "source":"Levelling",
+         "levels":6
+      },
+      {
+         "name":"Tail Strike",
+         "source":"Levelling",
+         "levels":10
+      },
+      {
+         "name":"Sharp Stabs",
+         "source":"Levelling",
+         "levels":15
+      },
+      {
+         "name":"Crystal Spikes",
+         "source":"Levelling",
+         "levels":22
+      },
+      {
+         "name":"Madness Buff",
+         "source":"Levelling",
+         "levels":28
+      },
+      {
+         "name":"Crystal Bite",
+         "source":"Levelling",
+         "levels":37
+      },
+      {
+         "name":"Rend",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Footwork",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Diamond Fort",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":1,
+      "tree":[
+         {
+            "id":39,
+            "name":"Lapinite",
+            "stage":0
+         },
+         {
+            "id":40,
+            "name":"Azuroc",
+            "stage":1,
+            "levels":25,
+            "method":"level",
+            "previous":"Lapinite"
+         },
+         {
+            "id":41,
+            "name":"Zenoreth",
+            "stage":2,
+            "method":"trade",
+            "previous":"Azuroc"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"Mines of Mictlan",
+         "island":"Tucma",
+         "frequency":0.05,
+         "level":{
+            "min":31,
+            "max":37
+         }
+      }
+   ]
 }

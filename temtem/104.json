@@ -1,116 +1,139 @@
 {
-	"id": 104,
-	"name": "Cerneaf",
-	"types": ["Nature"],
-	"standardIcon": "/images/standard/Cerneaf.png",
-	"standardGif": "/images/standard/Cerneaf.gif",
-	"lumaIcon": "/images/luma/Cerneaf.png",
-	"lumaGif": "/images/luma/Cerneaf.gif",
-	"cry": "/cry/Cerneaf.wav",
-	"tier": "C",
-	"stats": {
-		"hp": 91,
-		"sta": 44,
-		"spd": 79,
-		"atk": 60,
-		"def": 88,
-		"spatk": 43,
-		"spdef": 46,
-		"total": 451
-	},
-	"tv": {
-		"hp": 2,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 2,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 24,
-		"High": 354,
-		"Wild": 0
-	},
-	"traits": ["Callosity", "Settling"],
-	"details": {
-		"height": {
-			"cm": 210,
-			"inches": 82
-		},
-		"weight": {
-			"kg": 94,
-			"lbs": 207
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Shy Shield",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Nibble",
-		"source": "Levelling",
-		"levels": 5
-	}, {
-		"name": "Roots",
-		"source": "Levelling",
-		"levels": 8
-	}, {
-		"name": "Sharp Leaf",
-		"source": "Levelling",
-		"levels": 11
-	}, {
-		"name": "Allergic Spread",
-		"source": "Levelling",
-		"levels": 17
-	}, {
-		"name": "Double Kick",
-		"source": "Levelling",
-		"levels": 21
-	}, {
-		"name": "Rampage",
-		"source": "Levelling",
-		"levels": 27
-	}, {
-		"name": "Revitalize",
-		"source": "Levelling",
-		"levels": 36
-	}, {
-		"name": "Water Cutting Lily",
-		"source": "Levelling",
-		"levels": 47
-	}, {
-		"name": "Spores",
-		"source": "Breeding"
-	}, {
-		"name": "Frond Whip",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 2,
-		"tree": [{
-			"id": 102,
-			"name": "Spriole",
-			"stage": 0
-		}, {
-			"id": 103,
-			"name": "Deendre",
-			"stage": 1,
-			"levels": 12,
-			"method": "level",
-			"previous": "Spriole"
-		}, {
-			"id": 104,
-			"name": "Cerneaf",
-			"stage": 1,
-			"levels": 25,
-			"method": "level",
-			"previous": "Deendre"
-		}],
-	},
-	"locations": []
+   "id":104,
+   "name":"Cerneaf",
+   "types":[
+      "Nature"
+   ],
+   "standardIcon":"/images/standard/Cerneaf.png",
+   "standardGif":"/images/standard/Cerneaf.gif",
+   "lumaIcon":"/images/luma/Cerneaf.png",
+   "lumaGif":"/images/luma/Cerneaf.gif",
+   "cry":"/cry/Cerneaf.wav",
+   "tier":"C",
+   "stats":{
+      "hp":91,
+      "sta":44,
+      "spd":79,
+      "atk":60,
+      "def":88,
+      "spatk":43,
+      "spdef":46,
+      "total":451
+   },
+   "tv":{
+      "hp":2,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":2,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":24,
+      "High":354,
+      "Wild":0
+   },
+   "traits":[
+      "Callosity",
+      "Settling"
+   ],
+   "details":{
+      "height":{
+         "cm":210,
+         "inches":82
+      },
+      "weight":{
+         "kg":94,
+         "lbs":207
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Shy Shield",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Nibble",
+         "source":"Levelling",
+         "levels":5
+      },
+      {
+         "name":"Roots",
+         "source":"Levelling",
+         "levels":8
+      },
+      {
+         "name":"Sharp Leaf",
+         "source":"Levelling",
+         "levels":11
+      },
+      {
+         "name":"Allergic Spread",
+         "source":"Levelling",
+         "levels":17
+      },
+      {
+         "name":"Double Kick",
+         "source":"Levelling",
+         "levels":21
+      },
+      {
+         "name":"Rampage",
+         "source":"Levelling",
+         "levels":27
+      },
+      {
+         "name":"Revitalize",
+         "source":"Levelling",
+         "levels":36
+      },
+      {
+         "name":"Water Cutting Lily",
+         "source":"Levelling",
+         "levels":47
+      },
+      {
+         "name":"Spores",
+         "source":"Breeding"
+      },
+      {
+         "name":"Frond Whip",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":2,
+      "tree":[
+         {
+            "id":102,
+            "name":"Spriole",
+            "stage":0
+         },
+         {
+            "id":103,
+            "name":"Deendre",
+            "stage":1,
+            "levels":12,
+            "method":"level",
+            "previous":"Spriole"
+         },
+         {
+            "id":104,
+            "name":"Cerneaf",
+            "stage":1,
+            "levels":25,
+            "method":"level",
+            "previous":"Deendre"
+         }
+      ]
+   },
+   "locations":[
+
+   ]
 }

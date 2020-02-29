@@ -1,109 +1,132 @@
 {
-	"id": 133,
-	"name": "Tuvine",
-	"types": ["Wind", "Crystal"],
-	"standardIcon": "/images/standard/Tuvine.png",
-	"standardGif": "/images/standard/Tuvine.gif",
-	"lumaIcon": "/images/luma/Tuvine.png",
-	"lumaGif": "/images/luma/Tuvine.gif",
-	"cry": "/cry/Tuvine.wav",
-	"tier": "S",
-	"stats": {
-		"hp": 57,
-		"sta": 47,
-		"spd": 65,
-		"atk": 70,
-		"def": 111,
-		"spatk": 60,
-		"spdef": 47,
-		"total": 457
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 4,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 0,
-		"High": 0,
-		"Wild": 0
-	},
-	"traits": ["Receptive", "Determined"],
-	"details": {
-		"height": {
-			"cm": 172,
-			"inches": 67
-		},
-		"weight": {
-			"kg": 87,
-			"lbs": 191
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Peck",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Wind Blade",
-		"source": "Levelling",
-		"levels": 4
-	}, {
-		"name": "Shrill Voice",
-		"source": "Levelling",
-		"levels": 6
-	}, {
-		"name": "Feather Gatling",
-		"source": "Levelling",
-		"levels": 10
-	}, {
-		"name": "Wind Burst",
-		"source": "Levelling",
-		"levels": 14
-	}, {
-		"name": "Multiple Pecks",
-		"source": "Levelling",
-		"levels": 18
-	}, {
-		"name": "Humiliating Slap",
-		"source": "Levelling",
-		"levels": 27
-	}, {
-		"name": "Tornado",
-		"source": "Levelling",
-		"levels": 34
-	}, {
-		"name": "Crystal Plume Gatling",
-		"source": "Levelling",
-		"levels": 40
-	}, {
-		"name": "Diamond Fort",
-		"source": "Levelling",
-		"levels": 48
-	}, {
-		"name": "Noxious Bomb",
-		"source": "TechniqueCourses"
-	}],
-	"evolution": {
-		"stage": 1,
-		"tree": [{
-			"id": 130,
-			"name": "Tuwai",
-			"stage": 0
-    }, {
-			"id": 133,
-			"name": "Tuvine",
-			"stage": 1,
-			"method": "Crystal Shrine",
-			"previous": "Tuwai"
-    }],
-	},
-	"locations": []
+   "id":133,
+   "name":"Tuvine",
+   "types":[
+      "Wind",
+      "Crystal"
+   ],
+   "standardIcon":"/images/standard/Tuvine.png",
+   "standardGif":"/images/standard/Tuvine.gif",
+   "lumaIcon":"/images/luma/Tuvine.png",
+   "lumaGif":"/images/luma/Tuvine.gif",
+   "cry":"/cry/Tuvine.wav",
+   "tier":"S",
+   "stats":{
+      "hp":57,
+      "sta":47,
+      "spd":65,
+      "atk":70,
+      "def":111,
+      "spatk":60,
+      "spdef":47,
+      "total":457
+   },
+   "tv":{
+      "hp":0,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":4,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":0,
+      "High":0,
+      "Wild":0
+   },
+   "traits":[
+      "Receptive",
+      "Determined"
+   ],
+   "details":{
+      "height":{
+         "cm":172,
+         "inches":67
+      },
+      "weight":{
+         "kg":87,
+         "lbs":191
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Peck",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Wind Blade",
+         "source":"Levelling",
+         "levels":4
+      },
+      {
+         "name":"Shrill Voice",
+         "source":"Levelling",
+         "levels":6
+      },
+      {
+         "name":"Feather Gatling",
+         "source":"Levelling",
+         "levels":10
+      },
+      {
+         "name":"Wind Burst",
+         "source":"Levelling",
+         "levels":14
+      },
+      {
+         "name":"Multiple Pecks",
+         "source":"Levelling",
+         "levels":18
+      },
+      {
+         "name":"Humiliating Slap",
+         "source":"Levelling",
+         "levels":27
+      },
+      {
+         "name":"Tornado",
+         "source":"Levelling",
+         "levels":34
+      },
+      {
+         "name":"Crystal Plume Gatling",
+         "source":"Levelling",
+         "levels":40
+      },
+      {
+         "name":"Diamond Fort",
+         "source":"Levelling",
+         "levels":48
+      },
+      {
+         "name":"Noxious Bomb",
+         "source":"TechniqueCourses"
+      }
+   ],
+   "evolution":{
+      "stage":1,
+      "tree":[
+         {
+            "id":130,
+            "name":"Tuwai",
+            "stage":0
+         },
+         {
+            "id":133,
+            "name":"Tuvine",
+            "stage":1,
+            "method":"Crystal Shrine",
+            "previous":"Tuwai"
+         }
+      ]
+   },
+   "locations":[
+
+   ]
 }

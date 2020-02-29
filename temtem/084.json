@@ -1,122 +1,143 @@
 {
-	"id": 84,
-	"name": "Mushi",
-	"types": ["Toxic"],
-	"standardIcon": "/images/standard/Mushi.png",
-	"standardGif": "/images/standard/Mushi.gif",
-	"lumaIcon": "/images/luma/Mushi.png",
-	"lumaGif": "/images/luma/Mushi.gif",
-	"cry": "/cry/Mushi.wav",
-	"tier": "E",
-	"stats": {
-		"hp": 48,
-		"sta": 33,
-		"spd": 68,
-		"atk": 48,
-		"def": 36,
-		"spatk": 48,
-		"spdef": 29,
-		"total": 310
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 0,
-		"spd": 2,
-		"atk": 0,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 23,
-		"High": 260,
-		"Wild": 107
-	},
-	"traits": ["Resistant", "Resilient"],
-	"details": {
-		"height": {
-			"cm": 100,
-			"inches": 39
-		},
-		"weight": {
-			"kg": 45,
-			"lbs": 99
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Nibble",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Tenderness",
-		"source": "Levelling",
-		"levels": 3
-	}, {
-		"name": "Urushiol",
-		"source": "Levelling",
-		"levels": 6
-	}, {
-		"name": "Toxic Spores",
-		"source": "Levelling",
-		"levels": 8
-	}, {
-		"name": "Shrill Voice",
-		"source": "Levelling",
-		"levels": 13
-	}, {
-		"name": "Humiliating Slap",
-		"source": "Levelling",
-		"levels": 17
-	}, {
-		"name": "Paralysing Poison",
-		"source": "Levelling",
-		"levels": 22
-	}, {
-		"name": "Inner Spirit",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 0,
-		"tree": [{
-			"id": 84,
-			"name": "Mushi",
-			"stage": 0
-		}, {
-			"id": 85,
-			"name": "Mushook",
-			"stage": 1,
-			"levels": 20,
-			"method": "level",
-			"previous": "Mushi"
-		}],
-	},
-	"locations": [{
-		"location": "Corrupted Badlands",
-		"island": "Tucma",
-		"frequency": 0.40,
-		"level": {
-			"min": 23,
-			"max": 27
-		}
-	}, {
-		"location": "Xolot Reservoir",
-		"island": "Tucma",
-		"frequency": 0.65,
-		"level": {
-			"min": 28,
-			"max": 31
-		}
-	}, {
-		"location": "Kupeleleza",
-		"island": "Tucma",
-		"frequency": 0.60,
-		"level": {
-			"min": 30,
-			"max": 36
-		}
-	}]
+   "id":84,
+   "name":"Mushi",
+   "types":[
+      "Toxic"
+   ],
+   "standardIcon":"/images/standard/Mushi.png",
+   "standardGif":"/images/standard/Mushi.gif",
+   "lumaIcon":"/images/luma/Mushi.png",
+   "lumaGif":"/images/luma/Mushi.gif",
+   "cry":"/cry/Mushi.wav",
+   "tier":"E",
+   "stats":{
+      "hp":48,
+      "sta":33,
+      "spd":68,
+      "atk":48,
+      "def":36,
+      "spatk":48,
+      "spdef":29,
+      "total":310
+   },
+   "tv":{
+      "hp":0,
+      "sta":0,
+      "spd":2,
+      "atk":0,
+      "def":0,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":23,
+      "High":260,
+      "Wild":107
+   },
+   "traits":[
+      "Resistant",
+      "Resilient"
+   ],
+   "details":{
+      "height":{
+         "cm":100,
+         "inches":39
+      },
+      "weight":{
+         "kg":45,
+         "lbs":99
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Nibble",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Tenderness",
+         "source":"Levelling",
+         "levels":3
+      },
+      {
+         "name":"Urushiol",
+         "source":"Levelling",
+         "levels":6
+      },
+      {
+         "name":"Toxic Spores",
+         "source":"Levelling",
+         "levels":8
+      },
+      {
+         "name":"Shrill Voice",
+         "source":"Levelling",
+         "levels":13
+      },
+      {
+         "name":"Humiliating Slap",
+         "source":"Levelling",
+         "levels":17
+      },
+      {
+         "name":"Paralysing Poison",
+         "source":"Levelling",
+         "levels":22
+      },
+      {
+         "name":"Inner Spirit",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":0,
+      "tree":[
+         {
+            "id":84,
+            "name":"Mushi",
+            "stage":0
+         },
+         {
+            "id":85,
+            "name":"Mushook",
+            "stage":1,
+            "levels":20,
+            "method":"level",
+            "previous":"Mushi"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"Corrupted Badlands",
+         "island":"Tucma",
+         "frequency":0.40,
+         "level":{
+            "min":23,
+            "max":27
+         }
+      },
+      {
+         "location":"Xolot Reservoir",
+         "island":"Tucma",
+         "frequency":0.65,
+         "level":{
+            "min":28,
+            "max":31
+         }
+      },
+      {
+         "location":"Kupeleleza",
+         "island":"Tucma",
+         "frequency":0.60,
+         "level":{
+            "min":30,
+            "max":36
+         }
+      }
+   ]
 }

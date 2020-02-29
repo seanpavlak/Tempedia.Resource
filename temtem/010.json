@@ -1,130 +1,155 @@
 {
-	"id": 10,
-	"name": "Swali",
-	"types": ["Nature"],
-	"standardIcon": "/images/standard/Swali.png",
-	"standardGif": "/images/standard/Swali.gif",
-	"lumaIcon": "/images/luma/Swali.png",
-	"lumaGif": "/images/luma/Swali.gif",
-	"cry": "/cry/Swali.wav",
-	"tier": "E",
-	"stats": {
-		"hp": 44,
-		"sta": 65,
-		"spd": 35,
-		"atk": 50,
-		"def": 40,
-		"spatk": 55,
-		"spdef": 60,
-		"total": 349
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 1,
-		"spd": 0,
-		"atk": 0,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 22,
-		"High": 170,
-		"Wild": 32
-	},
-	"traits": ["Shared Pain", "Mithridatism"],
-	"details": {
-		"height": {
-			"cm": 82,
-			"inches": 32
-		},
-		"weight": {
-			"kg": 18,
-			"lbs": 39
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Shy Shield",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Tenderness",
-		"source": "Levelling",
-		"levels": 2
-	}, {
-		"name": "Urushiol",
-		"source": "Levelling",
-		"levels": 5
-	}, {
-		"name": "Toxic Spores",
-		"source": "Levelling",
-		"levels": 14
-	}, {
-		"name": "Nimble",
-		"source": "Levelling",
-		"levels": 19
-	}, {
-		"name": "Photosynthesis",
-		"source": "Levelling",
-		"levels": 25
-	}, {
-		"name": "Bark Shield",
-		"source": "Levelling",
-		"levels": 35
-	}, {
-		"name": "Allergic Spread",
-		"source": "Levelling",
-		"levels": 44
-	}, {
-		"name": "Turbo Choreography",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Wake Up",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Misogi",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Spores",
-		"source": "Breeding"
-	}, {
-		"name": "Hypoxia",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 0,
-		"tree": [{
-			"id": 10,
-			"name": "Swali",
-			"stage": 0
-		}, {
-			"id": 11,
-			"name": "Loali",
-			"stage": 1,
-			"levels": 8,
-			"method": "level",
-			"previous": "Swali"
-		}],
-	},
-	"locations": [{
-		"location": "Prasine Coast",
-		"island": "Deniz",
-		"frequency": 0.40,
-		"level": {
-			"min": 2,
-			"max": 5
-		}
-	}, {
-		"location": "Thalassian Cliffs",
-		"island": "Deniz",
-		"frequency": 0.20,
-		"level": {
-			"min": 5,
-			"max": 8
-		}
-	}]
+   "id":10,
+   "name":"Swali",
+   "types":[
+      "Nature"
+   ],
+   "standardIcon":"/images/standard/Swali.png",
+   "standardGif":"/images/standard/Swali.gif",
+   "lumaIcon":"/images/luma/Swali.png",
+   "lumaGif":"/images/luma/Swali.gif",
+   "cry":"/cry/Swali.wav",
+   "tier":"E",
+   "stats":{
+      "hp":44,
+      "sta":65,
+      "spd":35,
+      "atk":50,
+      "def":40,
+      "spatk":55,
+      "spdef":60,
+      "total":349
+   },
+   "tv":{
+      "hp":0,
+      "sta":1,
+      "spd":0,
+      "atk":0,
+      "def":0,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":22,
+      "High":170,
+      "Wild":32
+   },
+   "traits":[
+      "Shared Pain",
+      "Mithridatism"
+   ],
+   "details":{
+      "height":{
+         "cm":82,
+         "inches":32
+      },
+      "weight":{
+         "kg":18,
+         "lbs":39
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Shy Shield",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Tenderness",
+         "source":"Levelling",
+         "levels":2
+      },
+      {
+         "name":"Urushiol",
+         "source":"Levelling",
+         "levels":5
+      },
+      {
+         "name":"Toxic Spores",
+         "source":"Levelling",
+         "levels":14
+      },
+      {
+         "name":"Nimble",
+         "source":"Levelling",
+         "levels":19
+      },
+      {
+         "name":"Photosynthesis",
+         "source":"Levelling",
+         "levels":25
+      },
+      {
+         "name":"Bark Shield",
+         "source":"Levelling",
+         "levels":35
+      },
+      {
+         "name":"Allergic Spread",
+         "source":"Levelling",
+         "levels":44
+      },
+      {
+         "name":"Turbo Choreography",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Wake Up",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Misogi",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Spores",
+         "source":"Breeding"
+      },
+      {
+         "name":"Hypoxia",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":0,
+      "tree":[
+         {
+            "id":10,
+            "name":"Swali",
+            "stage":0
+         },
+         {
+            "id":11,
+            "name":"Loali",
+            "stage":1,
+            "levels":8,
+            "method":"level",
+            "previous":"Swali"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"Prasine Coast",
+         "island":"Deniz",
+         "frequency":0.40,
+         "level":{
+            "min":2,
+            "max":5
+         }
+      },
+      {
+         "location":"Thalassian Cliffs",
+         "island":"Deniz",
+         "frequency":0.20,
+         "level":{
+            "min":5,
+            "max":8
+         }
+      }
+   ]
 }

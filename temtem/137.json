@@ -1,119 +1,144 @@
 {
-	"id": 137,
-	"name": "Kinu",
-	"types": ["Nature", "Mental"],
-	"standardIcon": "/images/standard/Kinu.png",
-	"standardGif": "/images/standard/Kinu.gif",
-	"lumaIcon": "/images/luma/Kinu.png",
-	"lumaGif": "/images/luma/Kinu.gif",
-	"cry": "/cry/Kinu.wav",
-	"tier": "A",
-	"stats": {
-		"hp": 47,
-		"sta": 74,
-		"spd": 74,
-		"atk": 53,
-		"def": 41,
-		"spatk": 69,
-		"spdef": 96,
-		"total": 454
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 4,
-		"spd": 0,
-		"atk": 0,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 28,
-		"High": 770,
-		"Wild": 230
-	},
-	"traits": ["Protector", "Benefactor"],
-	"details": {
-		"height": {
-			"cm": 93,
-			"inches": 36
-		},
-		"weight": {
-			"kg": 16,
-			"lbs": 37
-		},
-		"gender": {
-			"female": 0.80,
-			"male": 0.20
-		}
-	},
-	"techniques": [{
-		"name": "Scratch",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Sharp Leaf",
-		"source": "Levelling",
-		"levels": 4
-	}, {
-		"name": "Hypnosis",
-		"source": "Levelling",
-		"levels": 8
-	}, {
-		"name": "Intimidation",
-		"source": "Levelling",
-		"levels": 12
-	}, {
-		"name": "Revitalize",
-		"source": "Levelling",
-		"levels": 18
-	}, {
-		"name": "Beta Burst",
-		"source": "Levelling",
-		"levels": 22
-	}, {
-		"name": "Gaia",
-		"source": "Levelling",
-		"levels": 30
-	}, {
-		"name": "Lifeful Sap",
-		"source": "Levelling",
-		"levels": 37
-	}, {
-		"name": "Sacrifice",
-		"source": "Levelling",
-		"levels": 38
-	}, {
-		"name": "Stone Wall",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Turbo Choreography",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Wake Up",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Misogi",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Lullaby",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 0,
-		"tree": [{
-			"id": 137,
-			"name": "Kinu",
-			"stage": 0
-    }],
-	},
-	"locations": [{
-		"location": "Giant Banyan",
-		"island": "Omninesia",
-		"frequency": 0.05,
-		"level": {
-			"min": 24,
-			"max": 28
-		}
-	}]
+   "id":137,
+   "name":"Kinu",
+   "types":[
+      "Nature",
+      "Mental"
+   ],
+   "standardIcon":"/images/standard/Kinu.png",
+   "standardGif":"/images/standard/Kinu.gif",
+   "lumaIcon":"/images/luma/Kinu.png",
+   "lumaGif":"/images/luma/Kinu.gif",
+   "cry":"/cry/Kinu.wav",
+   "tier":"A",
+   "stats":{
+      "hp":47,
+      "sta":74,
+      "spd":74,
+      "atk":53,
+      "def":41,
+      "spatk":69,
+      "spdef":96,
+      "total":454
+   },
+   "tv":{
+      "hp":0,
+      "sta":4,
+      "spd":0,
+      "atk":0,
+      "def":0,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":28,
+      "High":770,
+      "Wild":230
+   },
+   "traits":[
+      "Protector",
+      "Benefactor"
+   ],
+   "details":{
+      "height":{
+         "cm":93,
+         "inches":36
+      },
+      "weight":{
+         "kg":16,
+         "lbs":37
+      },
+      "gender":{
+         "female":0.80,
+         "male":0.20
+      }
+   },
+   "techniques":[
+      {
+         "name":"Scratch",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Sharp Leaf",
+         "source":"Levelling",
+         "levels":4
+      },
+      {
+         "name":"Hypnosis",
+         "source":"Levelling",
+         "levels":8
+      },
+      {
+         "name":"Intimidation",
+         "source":"Levelling",
+         "levels":12
+      },
+      {
+         "name":"Revitalize",
+         "source":"Levelling",
+         "levels":18
+      },
+      {
+         "name":"Beta Burst",
+         "source":"Levelling",
+         "levels":22
+      },
+      {
+         "name":"Gaia",
+         "source":"Levelling",
+         "levels":30
+      },
+      {
+         "name":"Lifeful Sap",
+         "source":"Levelling",
+         "levels":37
+      },
+      {
+         "name":"Sacrifice",
+         "source":"Levelling",
+         "levels":38
+      },
+      {
+         "name":"Stone Wall",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Turbo Choreography",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Wake Up",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Misogi",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Lullaby",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":0,
+      "tree":[
+         {
+            "id":137,
+            "name":"Kinu",
+            "stage":0
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"Giant Banyan",
+         "island":"Omninesia",
+         "frequency":0.05,
+         "level":{
+            "min":24,
+            "max":28
+         }
+      }
+   ]
 }

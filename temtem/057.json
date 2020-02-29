@@ -1,121 +1,142 @@
 {
-	"id": 57,
-	"name": "Raiber",
-	"types": ["Fire"],
-	"standardIcon": "/images/standard/Raiber.png",
-	"standardGif": "/images/standard/Raiber.gif",
-	"lumaIcon": "/images/luma/Raiber.png",
-	"lumaGif": "/images/luma/Raiber.gif",
-	"cry": "/cry/Raiber.wav",
-	"tier": "E",
-	"stats": {
-		"hp": 57,
-		"sta": 35,
-		"spd": 42,
-		"atk": 40,
-		"def": 61,
-		"spatk": 59,
-		"spdef": 38,
-		"total": 332
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 1,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 22,
-		"High": 220,
-		"Wild": 90
-	},
-	"traits": ["Camaraderie", "Rested"],
-	"details": {
-		"height": {
-			"cm": 95,
-			"inches": 37
-		},
-		"weight": {
-			"kg": 28,
-			"lbs": 61
-		},
-		"gender": {
-			"female": 0.15,
-			"male": 0.85
-		}
-	},
-	"techniques": [{
-		"name": "Scratch",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Sand Splatter",
-		"source": "Levelling",
-		"levels": 4
-	}, {
-		"name": "Fire Flame",
-		"source": "Levelling",
-		"levels": 7
-	}, {
-		"name": "Roar",
-		"source": "Levelling",
-		"levels": 10
-	}, {
-		"name": "Fierce Claw",
-		"source": "Levelling",
-		"levels": 15
-	}, {
-		"name": "Embers",
-		"source": "Levelling",
-		"levels": 19
-	}, {
-		"name": "Fire Tornado",
-		"source": "Levelling",
-		"levels": 25
-	}, {
-		"name": "Rampage",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 0,
-		"tree": [{
-			"id": 57,
-			"name": "Raiber",
-			"stage": 0
-		}, {
-			"id": 58,
-			"name": "Raize",
-			"stage": 1,
-			"levels": 15,
-			"method": "level",
-			"previous": "Raiber"
-		}, {
-			"id": 59,
-			"name": "Raican",
-			"stage": 1,
-			"levels": 25,
-			"method": "level",
-			"previous": "Raize"
-		}],
-	},
-	"locations": [{
-		"location": "The Glassyway",
-		"island": "Omninesia",
-		"frequency": 0.30,
-		"level": {
-			"min": 20,
-			"max": 35
-		}
-	}, {
-		"location": "Anak Volcano",
-		"island": "Omninesia",
-		"frequency": 0.10,
-		"level": {
-			"min": 17,
-			"max": 24
-		}
-	}]
+   "id":57,
+   "name":"Raiber",
+   "types":[
+      "Fire"
+   ],
+   "standardIcon":"/images/standard/Raiber.png",
+   "standardGif":"/images/standard/Raiber.gif",
+   "lumaIcon":"/images/luma/Raiber.png",
+   "lumaGif":"/images/luma/Raiber.gif",
+   "cry":"/cry/Raiber.wav",
+   "tier":"E",
+   "stats":{
+      "hp":57,
+      "sta":35,
+      "spd":42,
+      "atk":40,
+      "def":61,
+      "spatk":59,
+      "spdef":38,
+      "total":332
+   },
+   "tv":{
+      "hp":0,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":1,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":22,
+      "High":220,
+      "Wild":90
+   },
+   "traits":[
+      "Camaraderie",
+      "Rested"
+   ],
+   "details":{
+      "height":{
+         "cm":95,
+         "inches":37
+      },
+      "weight":{
+         "kg":28,
+         "lbs":61
+      },
+      "gender":{
+         "female":0.15,
+         "male":0.85
+      }
+   },
+   "techniques":[
+      {
+         "name":"Scratch",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Sand Splatter",
+         "source":"Levelling",
+         "levels":4
+      },
+      {
+         "name":"Fire Flame",
+         "source":"Levelling",
+         "levels":7
+      },
+      {
+         "name":"Roar",
+         "source":"Levelling",
+         "levels":10
+      },
+      {
+         "name":"Fierce Claw",
+         "source":"Levelling",
+         "levels":15
+      },
+      {
+         "name":"Embers",
+         "source":"Levelling",
+         "levels":19
+      },
+      {
+         "name":"Fire Tornado",
+         "source":"Levelling",
+         "levels":25
+      },
+      {
+         "name":"Rampage",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":0,
+      "tree":[
+         {
+            "id":57,
+            "name":"Raiber",
+            "stage":0
+         },
+         {
+            "id":58,
+            "name":"Raize",
+            "stage":1,
+            "levels":15,
+            "method":"level",
+            "previous":"Raiber"
+         },
+         {
+            "id":59,
+            "name":"Raican",
+            "stage":1,
+            "levels":25,
+            "method":"level",
+            "previous":"Raize"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"The Glassyway",
+         "island":"Omninesia",
+         "frequency":0.30,
+         "level":{
+            "min":20,
+            "max":35
+         }
+      },
+      {
+         "location":"Anak Volcano",
+         "island":"Omninesia",
+         "frequency":0.10,
+         "level":{
+            "min":17,
+            "max":24
+         }
+      }
+   ]
 }

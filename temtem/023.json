@@ -1,149 +1,179 @@
 {
-	"id": 23,
-	"name": "Hidody",
-	"types": ["Nature"],
-	"standardIcon": "/images/standard/Hidody.png",
-	"standardGif": "/images/standard/Hidody.gif",
-	"lumaIcon": "/images/luma/Hidody.png",
-	"lumaGif": "/images/luma/Hidody.gif",
-	"cry": "/cry/Hidody.wav",
-	"tier": "E",
-	"stats": {
-		"hp": 49,
-		"sta": 70,
-		"spd": 39,
-		"atk": 42,
-		"def": 39,
-		"spatk": 62,
-		"spdef": 55,
-		"total": 356
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 2,
-		"spd": 0,
-		"atk": 0,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 22,
-		"High": 187,
-		"Wild": 64
-	},
-	"traits": ["Electric Synthesize", "Botanist"],
-	"details": {
-		"height": {
-			"cm": 100,
-			"inches": 39
-		},
-		"weight": {
-			"kg": 12,
-			"lbs": 26
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Scratch",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Sand Splatter",
-		"source": "Levelling",
-		"levels": 4
-	}, {
-		"name": "Sharp Leaf",
-		"source": "Levelling",
-		"levels": 7
-	}, {
-		"name": "Cheer Up",
-		"source": "Levelling",
-		"levels": 12
-	}, {
-		"name": "Allergic Spread",
-		"source": "Levelling",
-		"levels": 19
-	}, {
-		"name": "Gaia",
-		"source": "Levelling",
-		"levels": 24
-	}, {
-		"name": "Bark Shield",
-		"source": "Levelling",
-		"levels": 28
-	}, {
-		"name": "Wake Up",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Misogi",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Antitoxins",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Cage",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Relax",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Spores",
-		"source": "Breeding"
-	}, {
-		"name": "Lullaby",
-		"source": "Breeding"
-	}, {
-		"name": "Water Cutting Lily",
-		"source": "Breeding"
-	}, {
-		"name": "Sacrifice",
-		"source": "Breeding"
-	}, {
-		"name": "Hypoxia",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 0,
-		"tree": [{
-			"id": 23,
-			"name": "Hidody",
-			"stage": 0
-		}, {
-			"id": 24,
-			"name": "Taifu",
-			"stage": 1,
-			"levels": 15,
-			"method": "level",
-			"previous": "Hidody"
-		}],
-	},
-	"locations": [{
-		"location": "The Canopath",
-		"island": "Omninesia",
-		"frequency": 0.40,
-		"level": {
-			"min": 14,
-			"max": 17
-		}
-	}, {
-		"location": "The Glassyway",
-		"island": "Omninesia",
-		"frequency": 0.50,
-		"level": {
-			"min": 19,
-			"max": 22
-		}
-	}, {
-		"location": "Giant Banyan",
-		"island": "Omninesia",
-		"frequency": 0.40,
-		"level": {
-			"min": 23,
-			"max": 26
-		}
-	}]
+   "id":23,
+   "name":"Hidody",
+   "types":[
+      "Nature"
+   ],
+   "standardIcon":"/images/standard/Hidody.png",
+   "standardGif":"/images/standard/Hidody.gif",
+   "lumaIcon":"/images/luma/Hidody.png",
+   "lumaGif":"/images/luma/Hidody.gif",
+   "cry":"/cry/Hidody.wav",
+   "tier":"E",
+   "stats":{
+      "hp":49,
+      "sta":70,
+      "spd":39,
+      "atk":42,
+      "def":39,
+      "spatk":62,
+      "spdef":55,
+      "total":356
+   },
+   "tv":{
+      "hp":0,
+      "sta":2,
+      "spd":0,
+      "atk":0,
+      "def":0,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":22,
+      "High":187,
+      "Wild":64
+   },
+   "traits":[
+      "Electric Synthesize",
+      "Botanist"
+   ],
+   "details":{
+      "height":{
+         "cm":100,
+         "inches":39
+      },
+      "weight":{
+         "kg":12,
+         "lbs":26
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Scratch",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Sand Splatter",
+         "source":"Levelling",
+         "levels":4
+      },
+      {
+         "name":"Sharp Leaf",
+         "source":"Levelling",
+         "levels":7
+      },
+      {
+         "name":"Cheer Up",
+         "source":"Levelling",
+         "levels":12
+      },
+      {
+         "name":"Allergic Spread",
+         "source":"Levelling",
+         "levels":19
+      },
+      {
+         "name":"Gaia",
+         "source":"Levelling",
+         "levels":24
+      },
+      {
+         "name":"Bark Shield",
+         "source":"Levelling",
+         "levels":28
+      },
+      {
+         "name":"Wake Up",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Misogi",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Antitoxins",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Cage",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Relax",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Spores",
+         "source":"Breeding"
+      },
+      {
+         "name":"Lullaby",
+         "source":"Breeding"
+      },
+      {
+         "name":"Water Cutting Lily",
+         "source":"Breeding"
+      },
+      {
+         "name":"Sacrifice",
+         "source":"Breeding"
+      },
+      {
+         "name":"Hypoxia",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":0,
+      "tree":[
+         {
+            "id":23,
+            "name":"Hidody",
+            "stage":0
+         },
+         {
+            "id":24,
+            "name":"Taifu",
+            "stage":1,
+            "levels":15,
+            "method":"level",
+            "previous":"Hidody"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"The Canopath",
+         "island":"Omninesia",
+         "frequency":0.40,
+         "level":{
+            "min":14,
+            "max":17
+         }
+      },
+      {
+         "location":"The Glassyway",
+         "island":"Omninesia",
+         "frequency":0.50,
+         "level":{
+            "min":19,
+            "max":22
+         }
+      },
+      {
+         "location":"Giant Banyan",
+         "island":"Omninesia",
+         "frequency":0.40,
+         "level":{
+            "min":23,
+            "max":26
+         }
+      }
+   ]
 }

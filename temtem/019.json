@@ -1,67 +1,78 @@
 {
-	"id": 19,
-	"name": "Ampling",
-	"types": ["Electric"],
-	"standardIcon": "/images/standard/Ampling.png",
-	"standardGif": "/images/standard/Ampling.gif",
-	"lumaIcon": "/images/luma/Ampling.png",
-	"lumaGif": "/images/luma/Ampling.gif",
-	"cry": "/cry/Ampling.wav",
-	"tier": "E",
-	"stats": {
-		"hp": 0,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0,
-		"total": 0
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 0,
-		"High": 0,
-		"Wild": 0
-	},
-	"traits": [],
-	"details": {
-		"height": {
-			"cm": 0,
-			"inches": 0
-		},
-		"weight": {
-			"kg": 0,
-			"lbs": 0
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [],
-	"evolution": {
-		"stage": 0,
-		"tree": [{
-			"id": 19,
-			"name": "Ampling",
-			"stage": 0
-		}, {
-			"id": 20,
-			"name": "Amphatyr",
-			"stage": 1,
-			"levels": 0,
-			"method": "level",
-			"previous": "Ampling"
-		}],
-	},
-	"locations": []
+   "id":19,
+   "name":"Ampling",
+   "types":[
+      "Electric"
+   ],
+   "standardIcon":"/images/standard/Ampling.png",
+   "standardGif":"/images/standard/Ampling.gif",
+   "lumaIcon":"/images/luma/Ampling.png",
+   "lumaGif":"/images/luma/Ampling.gif",
+   "cry":"/cry/Ampling.wav",
+   "tier":"E",
+   "stats":{
+      "hp":0,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":0,
+      "spatk":0,
+      "spdef":0,
+      "total":0
+   },
+   "tv":{
+      "hp":0,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":0,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":0,
+      "High":0,
+      "Wild":0
+   },
+   "traits":[
+
+   ],
+   "details":{
+      "height":{
+         "cm":0,
+         "inches":0
+      },
+      "weight":{
+         "kg":0,
+         "lbs":0
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+
+   ],
+   "evolution":{
+      "stage":0,
+      "tree":[
+         {
+            "id":19,
+            "name":"Ampling",
+            "stage":0
+         },
+         {
+            "id":20,
+            "name":"Amphatyr",
+            "stage":1,
+            "levels":0,
+            "method":"level",
+            "previous":"Ampling"
+         }
+      ]
+   },
+   "locations":[
+
+   ]
 }

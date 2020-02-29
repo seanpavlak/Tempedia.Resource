@@ -1,157 +1,188 @@
 {
-	"id": 49,
-	"name": "Saku",
-	"types": ["Nature", "Wind"],
-	"standardIcon": "/images/standard/Saku.png",
-	"standardGif": "/images/standard/Saku.gif",
-	"lumaIcon": "/images/luma/Saku.png",
-	"lumaGif": "/images/luma/Saku.gif",
-	"cry": "/cry/Saku.wav",
-	"tier": "S",
-	"stats": {
-		"hp": 82,
-		"sta": 60,
-		"spd": 40,
-		"atk": 40,
-		"def": 62,
-		"spatk": 66,
-		"spdef": 70,
-		"total": 420
-	},
-	"tv": {
-		"hp": 2,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 23,
-		"High": 235,
-		"Wild": 100
-	},
-	"traits": ["Air Specialist", "Botanist"],
-	"details": {
-		"height": {
-			"cm": 92,
-			"inches": 36
-		},
-		"weight": {
-			"kg": 44,
-			"lbs": 97
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Shy Shield",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Toxic Spores",
-		"source": "Levelling",
-		"levels": 3
-	}, {
-		"name": "Nimble",
-		"source": "Levelling",
-		"levels": 6
-	}, {
-		"name": "Urushiol",
-		"source": "Levelling",
-		"levels": 8
-	}, {
-		"name": "Sharp Leaf",
-		"source": "Levelling",
-		"levels": 11
-	}, {
-		"name": "Wind Burst",
-		"source": "Levelling",
-		"levels": 14
-	}, {
-		"name": "Narcoleptic Hit",
-		"source": "Levelling",
-		"levels": 18
-	}, {
-		"name": "Boomerang",
-		"source": "Levelling",
-		"levels": 25
-	}, {
-		"name": "Allergic Spread",
-		"source": "Levelling",
-		"levels": 30
-	}, {
-		"name": "Tornado",
-		"source": "Levelling",
-		"levels": 41
-	}, {
-		"name": "Wake Up",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Noxious Bomb",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Held Anger",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Relax",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Bark Shield",
-		"source": "Breeding"
-	}, {
-		"name": "Lifeful Sap",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 1,
-		"tree": [{
-			"id": 48,
-			"name": "Kaku",
-			"stage": 0
-		}, {
-			"id": 49,
-			"name": "Saku",
-			"stage": 1,
-			"levels": 11,
-			"method": "level",
-			"previous": "Kaku"
-		}],
-	},
-	"locations": [{
-		"location": "The Gifted Bridges",
-		"island": "Deniz",
-		"frequency": 0.05,
-		"level": {
-			"min": 9,
-			"max": 11
-		}
-	}, {
-		"location": "The Canopath",
-		"island": "Omninesia",
-		"frequency": 0.05,
-		"level": {
-			"min": 16,
-			"max": 18
-		}
-	}, {
-		"location": "The Glassyway",
-		"island": "Omninesia",
-		"frequency": 0.25,
-		"level": {
-			"min": 19,
-			"max": 22
-		}
-	}, {
-		"location": "Kupeleleza",
-		"island": "Tucma",
-		"frequency": 0.40,
-		"level": {
-			"min": 34,
-			"max": 37
-		}
-	}]
+   "id":49,
+   "name":"Saku",
+   "types":[
+      "Nature",
+      "Wind"
+   ],
+   "standardIcon":"/images/standard/Saku.png",
+   "standardGif":"/images/standard/Saku.gif",
+   "lumaIcon":"/images/luma/Saku.png",
+   "lumaGif":"/images/luma/Saku.gif",
+   "cry":"/cry/Saku.wav",
+   "tier":"S",
+   "stats":{
+      "hp":82,
+      "sta":60,
+      "spd":40,
+      "atk":40,
+      "def":62,
+      "spatk":66,
+      "spdef":70,
+      "total":420
+   },
+   "tv":{
+      "hp":2,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":0,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":23,
+      "High":235,
+      "Wild":100
+   },
+   "traits":[
+      "Air Specialist",
+      "Botanist"
+   ],
+   "details":{
+      "height":{
+         "cm":92,
+         "inches":36
+      },
+      "weight":{
+         "kg":44,
+         "lbs":97
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Shy Shield",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Toxic Spores",
+         "source":"Levelling",
+         "levels":3
+      },
+      {
+         "name":"Nimble",
+         "source":"Levelling",
+         "levels":6
+      },
+      {
+         "name":"Urushiol",
+         "source":"Levelling",
+         "levels":8
+      },
+      {
+         "name":"Sharp Leaf",
+         "source":"Levelling",
+         "levels":11
+      },
+      {
+         "name":"Wind Burst",
+         "source":"Levelling",
+         "levels":14
+      },
+      {
+         "name":"Narcoleptic Hit",
+         "source":"Levelling",
+         "levels":18
+      },
+      {
+         "name":"Boomerang",
+         "source":"Levelling",
+         "levels":25
+      },
+      {
+         "name":"Allergic Spread",
+         "source":"Levelling",
+         "levels":30
+      },
+      {
+         "name":"Tornado",
+         "source":"Levelling",
+         "levels":41
+      },
+      {
+         "name":"Wake Up",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Noxious Bomb",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Held Anger",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Relax",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Bark Shield",
+         "source":"Breeding"
+      },
+      {
+         "name":"Lifeful Sap",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":1,
+      "tree":[
+         {
+            "id":48,
+            "name":"Kaku",
+            "stage":0
+         },
+         {
+            "id":49,
+            "name":"Saku",
+            "stage":1,
+            "levels":11,
+            "method":"level",
+            "previous":"Kaku"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"The Gifted Bridges",
+         "island":"Deniz",
+         "frequency":0.05,
+         "level":{
+            "min":9,
+            "max":11
+         }
+      },
+      {
+         "location":"The Canopath",
+         "island":"Omninesia",
+         "frequency":0.05,
+         "level":{
+            "min":16,
+            "max":18
+         }
+      },
+      {
+         "location":"The Glassyway",
+         "island":"Omninesia",
+         "frequency":0.25,
+         "level":{
+            "min":19,
+            "max":22
+         }
+      },
+      {
+         "location":"Kupeleleza",
+         "island":"Tucma",
+         "frequency":0.40,
+         "level":{
+            "min":34,
+            "max":37
+         }
+      }
+   ]
 }

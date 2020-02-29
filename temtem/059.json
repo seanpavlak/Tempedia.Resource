@@ -1,116 +1,139 @@
 {
-	"id": 59,
-	"name": "Raican",
-	"types": ["Fire"],
-	"standardIcon": "/images/standard/Raican.png",
-	"standardGif": "/images/standard/Raican.gif",
-	"lumaIcon": "/images/luma/Raican.png",
-	"lumaGif": "/images/luma/Raican.gif",
-	"cry": "/cry/Raican.wav",
-	"tier": "B",
-	"stats": {
-		"hp": 77,
-		"sta": 49,
-		"spd": 60,
-		"atk": 77,
-		"def": 77,
-		"spatk": 51,
-		"spdef": 50,
-		"total": 441
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 2,
-		"spatk": 2,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 24,
-		"High": 354,
-		"Wild": 0
-	},
-	"traits": ["Prideful", "Motivator"],
-	"details": {
-		"height": {
-			"cm": 195,
-			"inches": 76
-		},
-		"weight": {
-			"kg": 125,
-			"lbs": 275
-		},
-		"gender": {
-			"female": 0.15,
-			"male": 0.85
-		}
-	},
-	"techniques": [{
-		"name": "Scratch",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Sand Splatter",
-		"source": "Levelling",
-		"levels": 4
-	}, {
-		"name": "Fire Flame",
-		"source": "Levelling",
-		"levels": 7
-	}, {
-		"name": "Roar",
-		"source": "Levelling",
-		"levels": 10
-	}, {
-		"name": "Fierce Claw",
-		"source": "Levelling",
-		"levels": 15
-	}, {
-		"name": "Embers",
-		"source": "Levelling",
-		"levels": 19
-	}, {
-		"name": "Fire Tornado",
-		"source": "Levelling",
-		"levels": 25
-	}, {
-		"name": "King's Roar",
-		"source": "Levelling",
-		"levels": 37
-	}, {
-		"name": "Meteor Swarm",
-		"source": "Levelling",
-		"levels": 48
-	}, {
-		"name": "Held Anger",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Rampage",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 2,
-		"tree": [{
-			"id": 57,
-			"name": "Raiber",
-			"stage": 0
-		}, {
-			"id": 58,
-			"name": "Raize",
-			"stage": 1,
-			"levels": 15,
-			"method": "level",
-			"previous": "Raiber"
-		}, {
-			"id": 59,
-			"name": "Raican",
-			"stage": 1,
-			"levels": 25,
-			"method": "level",
-			"previous": "Raize"
-		}],
-	},
-	"locations": []
+   "id":59,
+   "name":"Raican",
+   "types":[
+      "Fire"
+   ],
+   "standardIcon":"/images/standard/Raican.png",
+   "standardGif":"/images/standard/Raican.gif",
+   "lumaIcon":"/images/luma/Raican.png",
+   "lumaGif":"/images/luma/Raican.gif",
+   "cry":"/cry/Raican.wav",
+   "tier":"B",
+   "stats":{
+      "hp":77,
+      "sta":49,
+      "spd":60,
+      "atk":77,
+      "def":77,
+      "spatk":51,
+      "spdef":50,
+      "total":441
+   },
+   "tv":{
+      "hp":0,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":2,
+      "spatk":2,
+      "spdef":0
+   },
+   "freetem":{
+      "low":24,
+      "High":354,
+      "Wild":0
+   },
+   "traits":[
+      "Prideful",
+      "Motivator"
+   ],
+   "details":{
+      "height":{
+         "cm":195,
+         "inches":76
+      },
+      "weight":{
+         "kg":125,
+         "lbs":275
+      },
+      "gender":{
+         "female":0.15,
+         "male":0.85
+      }
+   },
+   "techniques":[
+      {
+         "name":"Scratch",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Sand Splatter",
+         "source":"Levelling",
+         "levels":4
+      },
+      {
+         "name":"Fire Flame",
+         "source":"Levelling",
+         "levels":7
+      },
+      {
+         "name":"Roar",
+         "source":"Levelling",
+         "levels":10
+      },
+      {
+         "name":"Fierce Claw",
+         "source":"Levelling",
+         "levels":15
+      },
+      {
+         "name":"Embers",
+         "source":"Levelling",
+         "levels":19
+      },
+      {
+         "name":"Fire Tornado",
+         "source":"Levelling",
+         "levels":25
+      },
+      {
+         "name":"King's Roar",
+         "source":"Levelling",
+         "levels":37
+      },
+      {
+         "name":"Meteor Swarm",
+         "source":"Levelling",
+         "levels":48
+      },
+      {
+         "name":"Held Anger",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Rampage",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":2,
+      "tree":[
+         {
+            "id":57,
+            "name":"Raiber",
+            "stage":0
+         },
+         {
+            "id":58,
+            "name":"Raize",
+            "stage":1,
+            "levels":15,
+            "method":"level",
+            "previous":"Raiber"
+         },
+         {
+            "id":59,
+            "name":"Raican",
+            "stage":1,
+            "levels":25,
+            "method":"level",
+            "previous":"Raize"
+         }
+      ]
+   },
+   "locations":[
+
+   ]
 }

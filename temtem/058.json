@@ -1,109 +1,130 @@
 {
-	"id": 58,
-	"name": "Raize",
-	"types": ["Fire"],
-	"standardIcon": "/images/standard/Raize.png",
-	"standardGif": "/images/standard/Raize.gif",
-	"lumaIcon": "/images/luma/Raize.png",
-	"lumaGif": "/images/luma/Raize.gif",
-	"cry": "/cry/Raize.wav",
-	"tier": "A",
-	"stats": {
-		"hp": 66,
-		"sta": 46,
-		"spd": 40,
-		"atk": 46,
-		"def": 74,
-		"spatk": 69,
-		"spdef": 43,
-		"total": 384
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 2,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 23,
-		"High": 270,
-		"Wild": 0
-	},
-	"traits": ["Furor", "Demoralize"],
-	"details": {
-		"height": {
-			"cm": 160,
-			"inches": 62
-		},
-		"weight": {
-			"kg": 70,
-			"lbs": 154
-		},
-		"gender": {
-			"female": 0.15,
-			"male": 0.85
-		}
-	},
-	"techniques": [{
-		"name": "Scratch",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Sand Splatter",
-		"source": "Levelling",
-		"levels": 4
-	}, {
-		"name": "Fire Flame",
-		"source": "Levelling",
-		"levels": 7
-	}, {
-		"name": "Roar",
-		"source": "Levelling",
-		"levels": 10
-	}, {
-		"name": "Fierce Claw",
-		"source": "Levelling",
-		"levels": 15
-	}, {
-		"name": "Embers",
-		"source": "Levelling",
-		"levels": 19
-	}, {
-		"name": "Fire Tornado",
-		"source": "Levelling",
-		"levels": 25
-	}, {
-		"name": "King's Roar",
-		"source": "Levelling",
-		"levels": 37
-	}, {
-		"name": "Rampage",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 1,
-		"tree": [{
-			"id": 57,
-			"name": "Raiber",
-			"stage": 0
-		}, {
-			"id": 58,
-			"name": "Raize",
-			"stage": 1,
-			"levels": 15,
-			"method": "level",
-			"previous": "Raiber"
-		}, {
-			"id": 59,
-			"name": "Raican",
-			"stage": 1,
-			"levels": 25,
-			"method": "level",
-			"previous": "Raize"
-		}],
-	},
-	"locations": []
+   "id":58,
+   "name":"Raize",
+   "types":[
+      "Fire"
+   ],
+   "standardIcon":"/images/standard/Raize.png",
+   "standardGif":"/images/standard/Raize.gif",
+   "lumaIcon":"/images/luma/Raize.png",
+   "lumaGif":"/images/luma/Raize.gif",
+   "cry":"/cry/Raize.wav",
+   "tier":"A",
+   "stats":{
+      "hp":66,
+      "sta":46,
+      "spd":40,
+      "atk":46,
+      "def":74,
+      "spatk":69,
+      "spdef":43,
+      "total":384
+   },
+   "tv":{
+      "hp":0,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":2,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":23,
+      "High":270,
+      "Wild":0
+   },
+   "traits":[
+      "Furor",
+      "Demoralize"
+   ],
+   "details":{
+      "height":{
+         "cm":160,
+         "inches":62
+      },
+      "weight":{
+         "kg":70,
+         "lbs":154
+      },
+      "gender":{
+         "female":0.15,
+         "male":0.85
+      }
+   },
+   "techniques":[
+      {
+         "name":"Scratch",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Sand Splatter",
+         "source":"Levelling",
+         "levels":4
+      },
+      {
+         "name":"Fire Flame",
+         "source":"Levelling",
+         "levels":7
+      },
+      {
+         "name":"Roar",
+         "source":"Levelling",
+         "levels":10
+      },
+      {
+         "name":"Fierce Claw",
+         "source":"Levelling",
+         "levels":15
+      },
+      {
+         "name":"Embers",
+         "source":"Levelling",
+         "levels":19
+      },
+      {
+         "name":"Fire Tornado",
+         "source":"Levelling",
+         "levels":25
+      },
+      {
+         "name":"King's Roar",
+         "source":"Levelling",
+         "levels":37
+      },
+      {
+         "name":"Rampage",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":1,
+      "tree":[
+         {
+            "id":57,
+            "name":"Raiber",
+            "stage":0
+         },
+         {
+            "id":58,
+            "name":"Raize",
+            "stage":1,
+            "levels":15,
+            "method":"level",
+            "previous":"Raiber"
+         },
+         {
+            "id":59,
+            "name":"Raican",
+            "stage":1,
+            "levels":25,
+            "method":"level",
+            "previous":"Raize"
+         }
+      ]
+   },
+   "locations":[
+
+   ]
 }

@@ -1,146 +1,172 @@
 {
-	"id": 27,
-	"name": "Skail",
-	"types": ["Neutral"],
-	"standardIcon": "/images/standard/Skail.png",
-	"standardGif": "/images/standard/Skail.gif",
-	"lumaIcon": "/images/luma/Skail.png",
-	"lumaGif": "/images/luma/Skail.gif",
-	"cry": "/cry/Skail.wav",
-	"tier": "E",
-	"stats": {
-		"hp": 57,
-		"sta": 43,
-		"spd": 60,
-		"atk": 45,
-		"def": 50,
-		"spatk": 32,
-		"spdef": 41,
-		"total": 328
-	},
-	"tv": {
-		"hp": 0,
-		"sta": 0,
-		"spd": 1,
-		"atk": 0,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 23,
-		"High": 270,
-		"Wild": 70
-	},
-	"traits": ["Furor", "Scavenger"],
-	"details": {
-		"height": {
-			"cm": 80,
-			"inches": 31
-		},
-		"weight": {
-			"kg": 26,
-			"lbs": 57
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Tail Strike",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Scratch",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Sand Splatter",
-		"source": "Levelling",
-		"levels": 5
-	}, {
-		"name": "Held Anger",
-		"source": "Levelling",
-		"levels": 9
-	}, {
-		"name": "Fierce Claw",
-		"source": "Levelling",
-		"levels": 18
-	}, {
-		"name": "Haito Uchi",
-		"source": "Levelling",
-		"levels": 24
-	}, {
-		"name": "Stone Wall",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Wake Up",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Misogi",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Perfect Jab",
-		"source": "Breeding"
-	}, {
-		"name": "Oshi-Dashi",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 0,
-		"tree": [{
-			"id": 27,
-			"name": "Skail",
-			"stage": 0
-		}, {
-			"id": 28,
-			"name": "Skunch",
-			"stage": 1,
-			"levels": 20,
-			"method": "level",
-			"previous": "Skail"
-		}],
-	},
-	"locations": [{
-		"location": "Prasine Coast",
-		"island": "Deniz",
-		"frequency": 0.05,
-		"level": {
-			"min": 4,
-			"max": 6
-		}
-	}, {
-		"location": "Thalassian Cliffs",
-		"island": "Deniz",
-		"frequency": 0.30,
-		"level": {
-			"min": 4,
-			"max": 9
-		}
-	}, {
-		"location": "Windward Fort",
-		"island": "Deniz",
-		"frequency": 0.70,
-		"level": {
-			"min": 9,
-			"max": 14
-		}
-	}, {
-		"location": "Aguamarina Caves",
-		"island": "Deniz",
-		"frequency": 0.30,
-		"level": {
-			"min": 14,
-			"max": 20
-		}
-	}, {
-		"location": "Saipark Caves",
-		"island": "Deniz",
-		"frequency": 0.35,
-		"level": {
-			"min": 38,
-			"max": 41
-		}
-	}]
+   "id":27,
+   "name":"Skail",
+   "types":[
+      "Neutral"
+   ],
+   "standardIcon":"/images/standard/Skail.png",
+   "standardGif":"/images/standard/Skail.gif",
+   "lumaIcon":"/images/luma/Skail.png",
+   "lumaGif":"/images/luma/Skail.gif",
+   "cry":"/cry/Skail.wav",
+   "tier":"E",
+   "stats":{
+      "hp":57,
+      "sta":43,
+      "spd":60,
+      "atk":45,
+      "def":50,
+      "spatk":32,
+      "spdef":41,
+      "total":328
+   },
+   "tv":{
+      "hp":0,
+      "sta":0,
+      "spd":1,
+      "atk":0,
+      "def":0,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":23,
+      "High":270,
+      "Wild":70
+   },
+   "traits":[
+      "Furor",
+      "Scavenger"
+   ],
+   "details":{
+      "height":{
+         "cm":80,
+         "inches":31
+      },
+      "weight":{
+         "kg":26,
+         "lbs":57
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Tail Strike",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Scratch",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Sand Splatter",
+         "source":"Levelling",
+         "levels":5
+      },
+      {
+         "name":"Held Anger",
+         "source":"Levelling",
+         "levels":9
+      },
+      {
+         "name":"Fierce Claw",
+         "source":"Levelling",
+         "levels":18
+      },
+      {
+         "name":"Haito Uchi",
+         "source":"Levelling",
+         "levels":24
+      },
+      {
+         "name":"Stone Wall",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Wake Up",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Misogi",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Perfect Jab",
+         "source":"Breeding"
+      },
+      {
+         "name":"Oshi-Dashi",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":0,
+      "tree":[
+         {
+            "id":27,
+            "name":"Skail",
+            "stage":0
+         },
+         {
+            "id":28,
+            "name":"Skunch",
+            "stage":1,
+            "levels":20,
+            "method":"level",
+            "previous":"Skail"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"Prasine Coast",
+         "island":"Deniz",
+         "frequency":0.05,
+         "level":{
+            "min":4,
+            "max":6
+         }
+      },
+      {
+         "location":"Thalassian Cliffs",
+         "island":"Deniz",
+         "frequency":0.30,
+         "level":{
+            "min":4,
+            "max":9
+         }
+      },
+      {
+         "location":"Windward Fort",
+         "island":"Deniz",
+         "frequency":0.70,
+         "level":{
+            "min":9,
+            "max":14
+         }
+      },
+      {
+         "location":"Aguamarina Caves",
+         "island":"Deniz",
+         "frequency":0.30,
+         "level":{
+            "min":14,
+            "max":20
+         }
+      },
+      {
+         "location":"Saipark Caves",
+         "island":"Deniz",
+         "frequency":0.35,
+         "level":{
+            "min":38,
+            "max":41
+         }
+      }
+   ]
 }

@@ -1,137 +1,164 @@
 {
-	"id": 139,
-	"name": "Vulor",
-	"types": ["Fire", "Earth"],
-	"standardIcon": "/images/standard/Vulor.png",
-	"standardGif": "/images/standard/Vulor.gif",
-	"lumaIcon": "/images/luma/Vulor.png",
-	"lumaGif": "/images/luma/Vulor.gif",
-	"cry": "/cry/Vulor.wav",
-	"tier": "E",
-	"stats": {
-		"hp": 65,
-		"sta": 59,
-		"spd": 63,
-		"atk": 49,
-		"def": 71,
-		"spatk": 49,
-		"spdef": 32,
-		"total": 388
-	},
-	"tv": {
-		"hp": 1,
-		"sta": 0,
-		"spd": 0,
-		"atk": 0,
-		"def": 1,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 23,
-		"High": 320,
-		"Wild": 125
-	},
-	"traits": ["Pyromaniac", "Individualist"],
-	"details": {
-		"height": {
-			"cm": 163,
-			"inches": 64
-		},
-		"weight": {
-			"kg": 94,
-			"lbs": 208
-		},
-		"gender": {
-			"female": 0.40,
-			"male": 0.60
-		}
-	},
-	"techniques": [{
-		"name": "Scratch",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Stare",
-		"source": "Levelling",
-		"levels": 3
-	}, {
-		"name": "Sand Splatter",
-		"source": "Levelling",
-		"levels": 7
-	}, {
-		"name": "Fire Flame",
-		"source": "Levelling",
-		"levels": 10
-	}, {
-		"name": "Head Ram",
-		"source": "Levelling",
-		"levels": 15
-	}, {
-		"name": "Embers",
-		"source": "Levelling",
-		"levels": 21
-	}, {
-		"name": "Double Kick",
-		"source": "Levelling",
-		"levels": 30
-	}, {
-		"name": "Stone Ball",
-		"source": "Levelling",
-		"levels": 41
-	}, {
-		"name": "Wake Up",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Magma Cannon",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Rend",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Earth Wave",
-		"source": "Breeding"
-	}, {
-		"name": "Extinction",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 1,
-		"tree": [{
-			"id": 138,
-			"name": "Vulvir",
-			"stage": 0
-		}, {
-			"id": 139,
-			"name": "Vulor",
-			"stage": 1,
-			"levels": 14,
-			"method": "level",
-			"previous": "Vulvir"
-		}, {
-			"id": 140,
-			"name": "Vulcrane",
-			"stage": 1,
-			"levels": 28,
-			"method": "level",
-			"previous": "Vulor"
-		}],
-	},
-	"locations": [{
-		"location": "The Glassyway",
-		"island": "Omninesia",
-		"frequency": 0.20,
-		"level": {
-			"min": 33,
-			"max": 38
-		}
-	}, {
-		"location": "Mines of Mictlan",
-		"island": "Tucma",
-		"frequency": 0.25,
-		"level": {
-			"min": 32,
-			"max": 34
-		}
-	}]
+   "id":139,
+   "name":"Vulor",
+   "types":[
+      "Fire",
+      "Earth"
+   ],
+   "standardIcon":"/images/standard/Vulor.png",
+   "standardGif":"/images/standard/Vulor.gif",
+   "lumaIcon":"/images/luma/Vulor.png",
+   "lumaGif":"/images/luma/Vulor.gif",
+   "cry":"/cry/Vulor.wav",
+   "tier":"E",
+   "stats":{
+      "hp":65,
+      "sta":59,
+      "spd":63,
+      "atk":49,
+      "def":71,
+      "spatk":49,
+      "spdef":32,
+      "total":388
+   },
+   "tv":{
+      "hp":1,
+      "sta":0,
+      "spd":0,
+      "atk":0,
+      "def":1,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":23,
+      "High":320,
+      "Wild":125
+   },
+   "traits":[
+      "Pyromaniac",
+      "Individualist"
+   ],
+   "details":{
+      "height":{
+         "cm":163,
+         "inches":64
+      },
+      "weight":{
+         "kg":94,
+         "lbs":208
+      },
+      "gender":{
+         "female":0.40,
+         "male":0.60
+      }
+   },
+   "techniques":[
+      {
+         "name":"Scratch",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Stare",
+         "source":"Levelling",
+         "levels":3
+      },
+      {
+         "name":"Sand Splatter",
+         "source":"Levelling",
+         "levels":7
+      },
+      {
+         "name":"Fire Flame",
+         "source":"Levelling",
+         "levels":10
+      },
+      {
+         "name":"Head Ram",
+         "source":"Levelling",
+         "levels":15
+      },
+      {
+         "name":"Embers",
+         "source":"Levelling",
+         "levels":21
+      },
+      {
+         "name":"Double Kick",
+         "source":"Levelling",
+         "levels":30
+      },
+      {
+         "name":"Stone Ball",
+         "source":"Levelling",
+         "levels":41
+      },
+      {
+         "name":"Wake Up",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Magma Cannon",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Rend",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Earth Wave",
+         "source":"Breeding"
+      },
+      {
+         "name":"Extinction",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":1,
+      "tree":[
+         {
+            "id":138,
+            "name":"Vulvir",
+            "stage":0
+         },
+         {
+            "id":139,
+            "name":"Vulor",
+            "stage":1,
+            "levels":14,
+            "method":"level",
+            "previous":"Vulvir"
+         },
+         {
+            "id":140,
+            "name":"Vulcrane",
+            "stage":1,
+            "levels":28,
+            "method":"level",
+            "previous":"Vulor"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"The Glassyway",
+         "island":"Omninesia",
+         "frequency":0.20,
+         "level":{
+            "min":33,
+            "max":38
+         }
+      },
+      {
+         "location":"Mines of Mictlan",
+         "island":"Tucma",
+         "frequency":0.25,
+         "level":{
+            "min":32,
+            "max":34
+         }
+      }
+   ]
 }

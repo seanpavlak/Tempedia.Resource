@@ -1,166 +1,195 @@
 {
-	"id": 17,
-	"name": "Paharac",
-	"types": ["Wind"],
-	"standardIcon": "/images/standard/Paharac.png",
-	"standardGif": "/images/standard/Paharac.gif",
-	"lumaIcon": "/images/luma/Paharac.png",
-	"lumaGif": "/images/luma/Paharac.gif",
-	"cry": "/cry/Paharac.wav",
-	"tier": "E",
-	"stats": {
-		"hp": 60,
-		"sta": 30,
-		"spd": 70,
-		"atk": 50,
-		"def": 55,
-		"spatk": 60,
-		"spdef": 60,
-		"total": 385
-	},
-	"tv": {
-		"hp": 1,
-		"sta": 0,
-		"spd": 1,
-		"atk": 0,
-		"def": 0,
-		"spatk": 0,
-		"spdef": 0
-	},
-	"freetem": {
-		"low": 23,
-		"High": 260,
-		"Wild": 73
-	},
-	"traits": ["Caffeinated", "Camaraderie"],
-	"details": {
-		"height": {
-			"cm": 125,
-			"inches": 49
-		},
-		"weight": {
-			"kg": 24,
-			"lbs": 52
-		},
-		"gender": {
-			"female": 0.50,
-			"male": 0.50
-		}
-	},
-	"techniques": [{
-		"name": "Peck",
-		"source": "Levelling",
-		"levels": 1
-	}, {
-		"name": "Stare",
-		"source": "Levelling",
-		"levels": 2
-	}, {
-		"name": "Hypnosis",
-		"source": "Levelling",
-		"levels": 5
-	}, {
-		"name": "Wind Blade",
-		"source": "Levelling",
-		"levels": 7
-	}, {
-		"name": "Wind Burst",
-		"source": "Levelling",
-		"levels": 10
-	}, {
-		"name": "Cheer Up",
-		"source": "Levelling",
-		"levels": 14
-	}, {
-		"name": "Feather Gatling",
-		"source": "Levelling",
-		"levels": 19
-	}, {
-		"name": "Hypoxia",
-		"source": "Levelling",
-		"levels": 26
-	}, {
-		"name": "Tornado",
-		"source": "Levelling",
-		"levels": 38
-	}, {
-		"name": "Turbo Choreography",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Wake Up",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Misogi",
-		"source": "TechniqueCourses"
-	}, {
-		"name": "Hyperkinetic Strike",
-		"source": "Breeding"
-	}, {
-		"name": "Humiliating Slap",
-		"source": "Breeding"
-	}],
-	"evolution": {
-		"stage": 1,
-		"tree": [{
-				"id": 16,
-				"name": "Paharo",
-				"stage": 0
-		}, {
-				"id": 17,
-				"name": "Paharac",
-				"stage": 1,
-				"levels": 7,
-				"method": "level",
-				"previous": "Paharo"
-		},
-			{
-				"id": 18,
-				"name": "Granpah",
-				"stage": 2,
-				"levels": 16,
-				"method": "level",
-				"previous": "Paharac"
-		}],
-	},
-	"locations": [{
-		"location": "Saipark",
-		"island": "Deniz",
-		"frequency": 0.35,
-		"level": {
-			"min": 37,
-			"max": 40
-		}
-	} {
-		"location": "The Gifted Bridges",
-		"island": "Deniz",
-		"frequency": 0.05,
-		"level": {
-			"min": 8,
-			"max": 10
-		}
-	}, {
-		"location": "The Canopath",
-		"island": "Omninesia",
-		"frequency": 0.20,
-		"level": {
-			"min": 16,
-			"max": 18
-		}
-	}, {
-		"location": "The Flywalk",
-		"island": "Omninesia",
-		"frequency": 0.20,
-		"level": {
-			"min": 18,
-			"max": 21
-		}
-	}, {
-		"location": "The Glassyway",
-		"island": "Omninesia",
-		"frequency": 0.20,
-		"level": {
-			"min": 20,
-			"max": 22
-		}
-	}]
+   "id":17,
+   "name":"Paharac",
+   "types":[
+      "Wind"
+   ],
+   "standardIcon":"/images/standard/Paharac.png",
+   "standardGif":"/images/standard/Paharac.gif",
+   "lumaIcon":"/images/luma/Paharac.png",
+   "lumaGif":"/images/luma/Paharac.gif",
+   "cry":"/cry/Paharac.wav",
+   "tier":"E",
+   "stats":{
+      "hp":60,
+      "sta":30,
+      "spd":70,
+      "atk":50,
+      "def":55,
+      "spatk":60,
+      "spdef":60,
+      "total":385
+   },
+   "tv":{
+      "hp":1,
+      "sta":0,
+      "spd":1,
+      "atk":0,
+      "def":0,
+      "spatk":0,
+      "spdef":0
+   },
+   "freetem":{
+      "low":23,
+      "High":260,
+      "Wild":73
+   },
+   "traits":[
+      "Caffeinated",
+      "Camaraderie"
+   ],
+   "details":{
+      "height":{
+         "cm":125,
+         "inches":49
+      },
+      "weight":{
+         "kg":24,
+         "lbs":52
+      },
+      "gender":{
+         "female":0.50,
+         "male":0.50
+      }
+   },
+   "techniques":[
+      {
+         "name":"Peck",
+         "source":"Levelling",
+         "levels":1
+      },
+      {
+         "name":"Stare",
+         "source":"Levelling",
+         "levels":2
+      },
+      {
+         "name":"Hypnosis",
+         "source":"Levelling",
+         "levels":5
+      },
+      {
+         "name":"Wind Blade",
+         "source":"Levelling",
+         "levels":7
+      },
+      {
+         "name":"Wind Burst",
+         "source":"Levelling",
+         "levels":10
+      },
+      {
+         "name":"Cheer Up",
+         "source":"Levelling",
+         "levels":14
+      },
+      {
+         "name":"Feather Gatling",
+         "source":"Levelling",
+         "levels":19
+      },
+      {
+         "name":"Hypoxia",
+         "source":"Levelling",
+         "levels":26
+      },
+      {
+         "name":"Tornado",
+         "source":"Levelling",
+         "levels":38
+      },
+      {
+         "name":"Turbo Choreography",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Wake Up",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Misogi",
+         "source":"TechniqueCourses"
+      },
+      {
+         "name":"Hyperkinetic Strike",
+         "source":"Breeding"
+      },
+      {
+         "name":"Humiliating Slap",
+         "source":"Breeding"
+      }
+   ],
+   "evolution":{
+      "stage":1,
+      "tree":[
+         {
+            "id":16,
+            "name":"Paharo",
+            "stage":0
+         },
+         {
+            "id":17,
+            "name":"Paharac",
+            "stage":1,
+            "levels":7,
+            "method":"level",
+            "previous":"Paharo"
+         },
+         {
+            "id":18,
+            "name":"Granpah",
+            "stage":2,
+            "levels":16,
+            "method":"level",
+            "previous":"Paharac"
+         }
+      ]
+   },
+   "locations":[
+      {
+         "location":"Saipark",
+         "island":"Deniz",
+         "frequency":0.35,
+         "level":{
+            "min":37,
+            "max":40
+         }
+      },
+      {
+         "location":"The Gifted Bridges",
+         "island":"Deniz",
+         "frequency":0.05,
+         "level":{
+            "min":8,
+            "max":10
+         }
+      },
+      {
+         "location":"The Canopath",
+         "island":"Omninesia",
+         "frequency":0.20,
+         "level":{
+            "min":16,
+            "max":18
+         }
+      },
+      {
+         "location":"The Flywalk",
+         "island":"Omninesia",
+         "frequency":0.20,
+         "level":{
+            "min":18,
+            "max":21
+         }
+      },
+      {
+         "location":"The Glassyway",
+         "island":"Omninesia",
+         "frequency":0.20,
+         "level":{
+            "min":20,
+            "max":22
+         }
+      }
+   ]
 }
