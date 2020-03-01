@@ -1,0 +1,177 @@
+[{
+	"name": "Temtem 0.5.14",
+	"version": "0.5.14",
+	"url": "https://crema.gg/temtem/temtem-0-5-14/",
+	"date": "2020-2-24",
+	"patchInfo": {
+		"fixes": ["Fixed an invisible wall in Quetzal not allowing players to progress.", "Fixed players not being able to find any untamed encounters.", "Fixed Avenger trait not being triggered by the Sacrifice trait."],
+		"improvements": ["Changed Loading screen compression to improve its quality."],
+		"features": [],
+		"balance": []
+	}
+}, {
+	"name": "Temtem 0.5.13",
+	"version": "0.5.13",
+	"url": "https://crema.gg/temtem/temtem-0-5-13/",
+	"date": "2020-2-21",
+	"patchInfo": {
+		"fixes": ["Fixed several problems regarding the synchronization of the ready button during trades.", "Improved and secured some cinematic initialization cases to prevent further bugs.", "Fixed some cases where gears could get lost when trying to release a Temtem that had one equipped.", "Fixed getting stuck when talking with the stowaway in Tucma.", "Fixed co-op party breaking during Dr. Hamijo’s conversation in the Anak Volcano.", "Fixed Temtem losing their shadow after inspecting them in the Tempedia.", "Fixed not being able to use your partner’s recently captured Temtem in battles.", "Fixed a soft lock when picking an object that your co-op partner already has.", "Fixed a game crash when pressing TAB/Control in the Vault.", "Fixed being stuck in battles when losing connectivity after capturing an untamed Temtem while on a co-op party.", "Fixed traded eggs with 0 minutes to hatch not hatching after the trade.", "Fixed items not being taken away during the crash cinematic after doing a co-op party.", "Fixed being stuck in limbo after reaching the Jail in a co-op party.", "Fixed frozen evolving Temtem not appearing as frozen after the evolution sequence.", "Fixed Omninesia Dojos having their description swapped with each other.", "Fixed not being able to stand up after sitting down in jaguar lounge’s benches."],
+		"improvements": ["Added a countdown to the trade screen. After both players hit ready, there will be a 5-second countdown where players can review everything and cancel the trade if they’re not sure about something.", "Exiting the trade screen will now instantly cancel the ready button before confirming the exit with the player.", "Increased server room sizes to hold more players at the same time.", "Improved Barnshe textures."],
+		"features": ["Added a new music track during the competitive pick&ban phase."],
+		"balance": []
+	}
+}, {
+	"name": "Temtem 0.5.12",
+	"version": "0.5.12",
+	"url": "https://crema.gg/temtem/temtem-0-5-12/",
+	"date": "2020-2-17",
+	"patchInfo": {
+		"fixes": ["Fixed being able to get out of the Quetzal’s Dojo puzzle.", "Fixed several co-op stuck situations in battles.", "Fixed getting stuck in the prison quest while on co-op after a disband.", "Fixed quest not progressing after picking items while on a co-op party (or after the party is disbanded).", "Fixed not being able to see the actions for the co-op partner while having severe lag.", "Fixed a visual bug in the stamina bar when quickly hovering a technique before using it.", "Fixed players seeing their friends with their old cosmetic items after a reset.", "Fixed getting stuck inside tables after disconnecting while seated near it.", "Fixed getting stuck while reading a dialog and your co-op partner disbanding.", "Fixed getting stuck in Omninesia’s Lift after a player disbands the co-op party.", "Fixed (hopefully) character reset not properly working and leaving players with an empty character and getting stuck in some interactions (getting a starter, going into a battle…).", "Fixed incorrect camera angle after knocking-out a Temtem with Haito Uchi.", "Fixed incorrect behavior when releasing a Temtem and capturing a new one in the same turn.", "Fixed getting stuck behind some NPCs.", "Fixed Raican’s Prideful trait triggering only once when knocking-out two Temtem at the same time.", "Fixed Coat’s missing icon."],
+		"improvements": ["Stat stage modifiers have been reworked to speed up the animations. Instead of having an animation per stat change, all stat changes for a Temtem are now unified in the same animation.", "The Pick&Ban screen now maintains the proper color based on which player is the first (blue) and which one is the second (orange). Previous to this change, every player would see themselves with the color of the first player.", "The Competitive battle screen now displays the speed arrow holder.", "The Battle screen will now display separately the Temcards for each player while they are on a co-op party."],
+		"features": ["The Saipark opens its doors.The Saipark is a new end-game area and the first natural reserve in the whole Archipelago.Each week, the Saipark will hold two different species of Temtem. These species will present special features like having more chances of being Luma, presenting egg moves or even having guaranteed minimum SVs.Regular Temcards won’t work inside the premises of the Saipark. Instead, players will need to buy a special Temcard type called Saicards. Saicards only work inside the premises of the Saipark and they will expire at the end of the week.In order to be able to get Saicards, players will need to pay an initial fee to enter the park and get a pack of Saicards. Players will also be able to buy more Saicards during the week, but the fee will be more and more expensive each time.Currently, the configuration for the week is not displayed inside the game. While we work on a screen that will showcase that info, we will be posting the info on our social networks.", "The Saipark is a new end-game area and the first natural reserve in the whole Archipelago.", "Each week, the Saipark will hold two different species of Temtem. These species will present special features like having more chances of being Luma, presenting egg moves or even having guaranteed minimum SVs.", "Regular Temcards won’t work inside the premises of the Saipark. Instead, players will need to buy a special Temcard type called Saicards. Saicards only work inside the premises of the Saipark and they will expire at the end of the week.", "In order to be able to get Saicards, players will need to pay an initial fee to enter the park and get a pack of Saicards. Players will also be able to buy more Saicards during the week, but the fee will be more and more expensive each time.", "Currently, the configuration for the week is not displayed inside the game. While we work on a screen that will showcase that info, we will be posting the info on our social networks.", "Player’s Vault.The Vault can be accessed from each big Temporium and it will serve as additional storage for items.Items put in the Vault will be kept between resets (but if you want to reset while having anything in the Vault you’ll need to wait 10 days since your previous reset, similar situation as it already happens with trading).Items redeemed through Promo codes will be put directly in the player’s vault, and they will automatically be stored there between resets too.", "The Vault can be accessed from each big Temporium and it will serve as additional storage for items.", "Items put in the Vault will be kept between resets (but if you want to reset while having anything in the Vault you’ll need to wait 10 days since your previous reset, similar situation as it already happens with trading).", "Items redeemed through Promo codes will be put directly in the player’s vault, and they will automatically be stored there between resets too.", "Player avatars now have an idle animation which will happen if the player is idling for a bit."],
+		"balance": ["Reduced overall Luma rate from 1 / 6000 to 1 / 8000.", "Reduced the overall selling price of items from 70% to 50% of their value. Sellable-only items are not affected by this change (silicons, crystals, and sea salts).", "Telomere Hacks will now reduce the affected Temtem fertility by 1 (if the Temtem doesn’t have any fertility left, the SV addition will be applied anyway and the fertility reduction will be ignored).", "Swapped some of the tint items that could be found as pickables for other more useful items during the campaign."]
+	}
+}, {
+	"name": "Temtem 0.5.11",
+	"version": "0.5.11",
+	"url": "https://crema.gg/temtem/temtem-0-5-11/",
+	"date": "2020-2-7",
+	"patchInfo": {
+		"fixes": ["Fixed being stuck in battles after all your Tems are knocked-out and your co-op partner breaks the party.", "Fixed being stuck in battles after all your partner Tems are knocked-out and they break the party.", "Fixed getting stuck on “Waiting for” in battles after reconnecting during a turn where your latest Temtem is knocked-out and being in a co-op party.", "Fixed pronouns not working properly in some languages.", "Fixed getting stuck in certain cinematics (Max, Lottie…) after a reconnection.", "Fixed Chain Lighting doing more damage to the second target after hitting an x2/x4 technique against the first target.", "Swapping sit places rapidly won’t kick players anymore.", "Fixed frozen animations on players after customizing their cosmetics.", "Fixed being stuck in Ocelotl’s dialog after receiving the new Tems while on co-op.", "Fixed incorrect egg techniques on NPC traded Tems (Taifu <> Ukama).", "Fixed getting duplicate quest items while on co-op.", "Fixed being able to give away your last Tem to an NPC and having an egg-only squad.", "Fixed a problem during the prison quest while being on a co-op party that causes a player getting stuck without any Temtem and outside of the prison.", "Fixed being stuck in the experience screen after spamming several Growth Enhancers.", "Fixed desynchronization in dialogs while on co-op during the prison quest.", "Fixed Temtem not being removed from the battle after getting knocked-out with poison and exactly 0 HP.", "Fixed not being able to enter the Kakama Cenote while on co-op.", "Fixed quests not progressing after defeating Tihani for the second time while on co-op."],
+		"improvements": ["If the player needs to be teleported back after breaking a co-op party, it will now go back to the latest visited Temporium instead of the latest saved place."],
+		"features": [],
+		"balance": []
+	}
+}, {
+	"name": "Temtem 0.5.10",
+	"version": "0.5.10",
+	"url": "https://crema.gg/temtem/temtem-0-5-10/",
+	"date": "2020-1-31",
+	"patchInfo": {
+		"fixes": ["Fixed a squad desync after capturing and releasing a Temtem and capturing another one in the same battle.", "Fixed some problems introduced in the previous patch with the co-op teleport feature.", "Fixed being stuck after creating a co-op party just after the partner enters your server room.", "Fixed fainter curse visual order to display the Temtem being knocked-out after the target Temtem.", "Fixed some problems in battles after releasing a Temtem.", "Fixed a UI scale issue in the Notification Center when deleting or accepting multiple notifications.", "Fixed some errors inspecting other users after their characters were deleted."],
+		"improvements": ["Four-leaf clover can now be acquired without using the Skates.", "Every Temtem spawn zone from the Anak Volcano has been replicated in new zones in the exterior too in order to have access to them without using the Skates.", "The basic Temcard and Balm can now be acquired from every Temporium and miniTemporium.", "Improved movement sync on remote players."],
+		"features": [],
+		"balance": []
+	}
+}, {
+	"name": "Temtem 0.5.9",
+	"version": "0.5.9",
+	"url": "https://crema.gg/temtem/temtem-0-5-9/",
+	"date": "2020-1-30",
+	"patchInfo": {
+		"fixes": ["Fixed not being able to use the Acid-Proof Surfboard while on co-op.", "Fixed players getting stuck in battles after exiting the game mid battles and getting back after waiting at least two hours.", "Fixed being able to filter eggs by their gender.", "Fixed being stuck in battles after using the run hotkey.", "Fixed some more cases where known Tems weren’t registered in the Tempedia.", "Fixed the Tempedia not displaying the latest Tem if the last two were Unknown.", "Fixed a zone in the Xolot Reservoir where players got kicked out by the server while surfing.", "Fixed default dialog type speed being set to slow.", "Fixed some more cases where players were incorrectly being reported as busy.", "Fixed some pronoun tags not being replaced correctly.", "Fixed some more dialogs."],
+		"improvements": ["Retweaked experience and level up sounds.", "Terminating a co-op party will now teleport you back to your original position before starting the co-op party. This helps solve some cases where a player could get stuck with items they have only got by doing a co-op party (stuck in an island without surf, stuck in a crystal place without skates…). This will only affect players whose savegame is being lowered by creating the co-op party."],
+		"features": ["Added a new Setting for choosing the target framerate while the game is running on the background.", "French and Japanese translations completed."],
+		"balance": []
+	}
+}, {
+	"name": "Temtem 0.5.8",
+	"version": "0.5.8",
+	"url": "https://crema.gg/temtem/temtem-0-5-8/",
+	"date": "2020-1-28",
+	"patchInfo": {
+		"fixes": ["Fixed not being able to release Tems from the capture screen or from the Temdeck boxes."],
+		"improvements": [],
+		"features": [],
+		"balance": []
+	}
+}, {
+	"name": "Temtem 0.5.7",
+	"version": "0.5.7",
+	"url": "https://crema.gg/temtem/temtem-0-5-7/",
+	"date": "2020-1-28",
+	"patchInfo": {
+		"fixes": ["Fixed some strange cases where users could get stuck on Max’s first battle.", "Fixed “player is busy” appearing instead of “player is not near enough to create the coop party” error.", "Fixed an error causing players appearing without any cosmetics (just a black bag and head) after resetting the character.", "Fixed screen flashes not rendering in full screen while playing on 1200p resolution.", "Fixed incorrect minimap appearing in a Mokupuni’s house.", "Closing the game between the transition of Quetzal and Nahua Crater or between the Kakama Cenote and the Xolot Reservoir was causing players to get out of bounds.", "Fixed some cases where players could get stuck without getting the Ancient Idol item for the Free Matthew quest.", "Fixed some cases where players could miss getting the Flask after completing the Luis Errands quest.", "Fixed a bug causing some eggs getting lost in the Squad after releasing another egg.", "Fixed Avenger trait being triggered by every knocked-out Temtem instead of only being triggered by knocked-out allies.", "Fixed a miner in the mines which was getting some players stuck out of bounds.", "Fixed some cases where players could get stuck in the Banyan after breaking a co-op party.", "Fixed some more dialogs and texts."],
+		"improvements": ["Improved textures for Barnshe, Anahir and Orphyll.", "Temtem cries will now only sound when entering the details screen and won’t sound when changing between different Temtem.", "Characters can now be reset from the lobby without going into the game."],
+		"features": [],
+		"balance": []
+	}
+}, {
+	"name": "Temtem 0.5.6",
+	"version": "0.5.6",
+	"url": "https://crema.gg/temtem/temtem-0-5-6/",
+	"date": "2020-1-27",
+	"patchInfo": {
+		"fixes": ["Fixed a bug that caused being stuck on battles while on co-op (aka Head Charge bug).", "Fixed some cases where Temtem where getting lost on trades. We’ve also restored every lost Temtem.", "Fixed incorrect reward value displayed in FreeTem! when releasing a Temtem with a low catch rate.", "Fixed empty Tamer Info when checking your own data or other users.", "Fixed a bug in the Temdeck when releasing Temtem while having an applied filter.", "Fixed a problem not allowing backers to use their reserved nicknames."],
+		"improvements": ["Added a proper warning before doing a trade notifying the user that trades will lock you from resetting your character for 10 days. Since this wasn’t being notified previously, we’ve removed all current restrictions so players who weren’t able to reset, can do so now.", "Heavily improved how the movement is synced while on co-op."],
+		"features": ["Added an in-game system notification that will notify users before the server is restarted. The notification will appear whether you’re on a battle or outside a battle and can also be checked under the notifications screen.", "Added sounds to the experience screen."],
+		"balance": []
+	}
+}, {
+	"name": "Temtem 0.5.5",
+	"version": "0.5.5",
+	"url": "https://crema.gg/temtem/temtem-0-5-5/",
+	"date": "2020-1-25",
+	"patchInfo": {
+		"fixes": ["Fixed not receiving the surfboard in the Beached Narwhal quest after delivering a Toxolotl.", "Fixed errors when changing the Squad order while they were being healed.", "The Tamer Info screen can now be closed even when there’s an error and it doesn’t display information.", "Fixed some interactions between moving platforms and opening eggs.", "Fixed Name Reservation missing icon.", "Fixed some dialogs."],
+		"improvements": [],
+		"features": [],
+		"balance": ["Increased the price for all breeding gears."]
+	}
+}, {
+	"name": "Temtem 0.5.4",
+	"version": "0.5.4",
+	"url": "https://crema.gg/temtem/temtem-0-5-4/",
+	"date": "2020-1-23",
+	"patchInfo": {
+		"fixes": ["Fixed queue 2 minute grace period after reconnecting not properly working.", "Fixed Temtem getting lost after a reconnection.", "Fixed Gear items getting lost after a reconnection.", "Fixed swapped techniques not working.", "Fixed an exploit that allowed to escape from NPC battles.", "Fixed desynchronization of particles in Sophia’s dojo.", "Fixed incorrect animation displayed on Lottie’s Belsoto grunts.", "Fixed some location tags not being replaced with the correct location name on some languages.", "Fixed errors when closing the game while in a co-op battle.", "Fixed errors when disbanding a co-op party while your partner was waiting for you at a building’s exit.", "Fixed casual battles not working when players were in different server rooms."],
+		"improvements": [],
+		"features": [],
+		"balance": []
+	}
+}, {
+	"name": "Temtem 0.5.3",
+	"version": "0.5.3",
+	"url": "https://crema.gg/temtem/temtem-0-5-3/",
+	"date": "2020-1-22",
+	"patchInfo": {
+		"fixes": ["Fixed getting stuck after creating a co-op party with another player in a different server room.", "Fixed co-op nickname icon appearing under random players."],
+		"improvements": [],
+		"features": [],
+		"balance": []
+	}
+}, {
+	"name": "Temtem 0.5.2",
+	"version": "0.5.2",
+	"url": "https://crema.gg/temtem/temtem-0-5-2/",
+	"date": "2020-1-22",
+	"patchInfo": {
+		"fixes": ["Players getting stuck out of bounds when reconnected.", "Black screen when creating a new character.", "Terrain clipping in Aguamarina Caves.", "Cosmetics prices overflowing their space.", "Locked in double battles when playing in German."],
+		"improvements": ["Several optimizations and improvements on connectivity between the server and the client."],
+		"features": [],
+		"balance": []
+	}
+}, {
+	"name": "Temtem 0.5.1",
+	"version": "0.5.1",
+	"url": "https://crema.gg/temtem/temtem-0-5-1/",
+	"date": "2020-1-22",
+	"patchInfo": {
+		"fixes": ["Not being able to search long names in the add friend screen.", "Neutral pronouns being used by default on notifications independently of the player’s selected pronoun."],
+		"improvements": ["Greatly improved the cosmetics data synchronization made by the server to avoid lag spikes when the rooms were full."],
+		"features": [],
+		"balance": []
+	}
+}, {
+	"name": "Temtem 0.5 – Early Access",
+	"version": "0.5",
+	"url": "https://crema.gg/temtem/temtem-0-5-early-access/",
+	"date": "2020-1-21",
+	"patchInfo": {
+		"fixes": ["👥 Regenerating tutorial showing an incorrect HP recovered amount.", "👥 Incorrect EXP showed after using a growth enhancer.", "Being able to use several items from the Backpack when having high lag.", "Paparazzo’s quest marker not being displayed in the minimap.", "Being able to pick items near a wall while sliding."],
+		"improvements": ["Improved the starter pick animation.", "Improved the character creation screen: removed scrolls, increased size of the body type sprites, tweaked how the style animations are displayed…", "Added and changed some of the cosmetics available during the character creation to allow more diversity in options.", "When two players send each other the same online request (co-op, add friend, trade…), the request will be automatically accepted.", "Added a cooldown after finishing a conversation and before starting it again.", "Improved navigation in the Squad interface when in co-op.", "Added a visual cue in the HealTem machines to depict the Temessence Phial refilling.", "Added a system message when a co-op party is created.", "Emotes menu won’t cancel notifications anymore.", "Added a gender filter in the Temdeck.", "Added all current breeding gears to the breeding center store.", "Time required for creating an egg has been reduced from 25 / 15 to 10 / 5.", "During the animation when sending a Temtem, the proper Temcard will now be displayed."],
+		"features": ["Added French, German, Spanish, Japanese, Korean and Simplified Chinese translations. Translations are a work in progress so it is expected to have some parts of the game missing localizations.", "Added a “Redeem” option in the main menu in order to redeem promo codes (Kickstarter backers, future promotions, etc).", "Added a search button on the friends screen. Works both using the exact name or the tamer ID.", "Added hidden hotkeys for every possible action in battleTechnique One: LT+X / Key 1Technique Two: LT+Y / Key 2Technique Three: LT+A / Key 3Technique Four: LT+B / Key 4Swap: RT+X / Key 5Rest: RT+Y / Key 6Item: RT+A / Key 7Run: RT+B / Key 8", "Technique One: LT+X / Key 1", "Technique Two: LT+Y / Key 2", "Technique Three: LT+A / Key 3", "Technique Four: LT+B / Key 4", "Swap: RT+X / Key 5", "Rest: RT+Y / Key 6", "Item: RT+A / Key 7", "Run: RT+B / Key 8", "Added a setting to tweak the dialogs’ speed.", "Added a setting to disable the characters’ voices in dialogs.", "Added a setting to disable the chat (although in the current early access release, it will be always disabled while we work on the final chat implementation).", "Added a profanity filter check to the character names."],
+		"balance": []
+	}
+}, {
+	"name": "Temtem 0.4.2",
+	"version": "0.4.2",
+	"url": "https://crema.gg/temtem/temtem-0-4-2/",
+	"date": "2020-1-19",
+	"patchInfo": {
+		"fixes": ["Improved Steam authentication to solve errors on the Press Any Key screen.", "Loading screens not waiting until the server OK response leading to users joining the game while disconnected from the server. This caused various problems with pickable objects, cinematics or NPCs.", "Improved character creation load on the server to prevent lag issues while a huge amount of users was creating their characters.", "Errors when naming a Temtem using an apostrophe."],
+		"improvements": ["Improved the initial queue to load the game to better reflect the real waiting time."],
+		"features": [],
+		"balance": []
+	}
+}]
