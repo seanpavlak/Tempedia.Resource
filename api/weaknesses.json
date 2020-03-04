@@ -166,5 +166,19 @@
 		"Melee": 1,
 		"Crystal": 1,
 		"Toxic": 0.5
+	},
+	"Unknown": {
+		"Neutral": 0,
+		"Fire": 0,
+		"Water": 0,
+		"Nature": 0,
+		"Electric": 0,
+		"Earth": 0,
+		"Mental": 0,
+		"Wind": 0,
+		"Digital": 0,
+		"Melee": 0,
+		"Crystal": 0,
+		"Toxic": 0
 	}
 }

@@ -34,4 +34,7 @@
 }, {
 	"name": "Toxic",
 	"icon": "/images/icons/types/Toxic.png"
+}, {
+	"name": "Unknown",
+	"icon": "/images/icons/types/Unknown.png"
 }]
