@@ -475,7 +475,7 @@
 	"lumaIcon": "/images/luma/Platimous.png",
 	"lumaGif": "/images/luma/Platimous.gif",
 	"cry": "/cry/Platimous.wav",
-	"tier": "B",
+	"tier": "C",
 	"stats": {
 		"hp": 71,
 		"sta": 49,
@@ -906,7 +906,7 @@
 	"lumaIcon": "/images/luma/Tateru.png",
 	"lumaGif": "/images/luma/Tateru.gif",
 	"cry": "/cry/Tateru.wav",
-	"tier": "D",
+	"tier": "C",
 	"stats": {
 		"hp": 70,
 		"sta": 90,
@@ -1391,7 +1391,7 @@
 	"lumaIcon": "/images/luma/Granpah.png",
 	"lumaGif": "/images/luma/Granpah.gif",
 	"cry": "/cry/Granpah.wav",
-	"tier": "C",
+	"tier": "A",
 	"stats": {
 		"hp": 69,
 		"sta": 36,
@@ -2330,7 +2330,7 @@
 	"lumaIcon": "/images/luma/Wiplump.png",
 	"lumaGif": "/images/luma/Wiplump.gif",
 	"cry": "/cry/Wiplump.wav",
-	"tier": "C",
+	"tier": "B",
 	"stats": {
 		"hp": 66,
 		"sta": 80,
@@ -2615,7 +2615,7 @@
 	"lumaIcon": "/images/luma/Skunch.png",
 	"lumaGif": "/images/luma/Skunch.gif",
 	"cry": "/cry/Skunch.wav",
-	"tier": "B",
+	"tier": "C",
 	"stats": {
 		"hp": 72,
 		"sta": 62,
@@ -2865,7 +2865,7 @@
 	"lumaIcon": "/images/luma/Tental.png",
 	"lumaGif": "/images/luma/Tental.gif",
 	"cry": "/cry/Tental.wav",
-	"tier": "C",
+	"tier": "D",
 	"stats": {
 		"hp": 41,
 		"sta": 51,
@@ -3126,7 +3126,7 @@
 	"lumaIcon": "/images/luma/Nidrasil.png",
 	"lumaGif": "/images/luma/Nidrasil.gif",
 	"cry": "/cry/Nidrasil.wav",
-	"tier": "C",
+	"tier": "A",
 	"stats": {
 		"hp": 77,
 		"sta": 52,
@@ -3730,7 +3730,7 @@
 	"lumaIcon": "/images/luma/Zenoreth.png",
 	"lumaGif": "/images/luma/Zenoreth.gif",
 	"cry": "/cry/Zenoreth.wav",
-	"tier": "C",
+	"tier": "A",
 	"stats": {
 		"hp": 71,
 		"sta": 35,
@@ -3955,7 +3955,7 @@
 	"lumaIcon": "/images/luma/Babawa.png",
 	"lumaGif": "/images/luma/Babawa.gif",
 	"cry": "/cry/Babawa.wav",
-	"tier": "D",
+	"tier": "B",
 	"stats": {
 		"hp": 85,
 		"sta": 92,
@@ -4249,7 +4249,7 @@
 	"lumaIcon": "/images/luma/Saku.png",
 	"lumaGif": "/images/luma/Saku.gif",
 	"cry": "/cry/Saku.wav",
-	"tier": "S",
+	"tier": "C",
 	"stats": {
 		"hp": 82,
 		"sta": 60,
@@ -4528,7 +4528,7 @@
 	"lumaIcon": "/images/luma/Barnshe.png",
 	"lumaGif": "/images/luma/Barnshe.gif",
 	"cry": "/cry/Barnshe.wav",
-	"tier": "A",
+	"tier": "C",
 	"stats": {
 		"hp": 50,
 		"sta": 51,
@@ -4912,7 +4912,7 @@
 	"lumaIcon": "/images/luma/Myx.png",
 	"lumaGif": "/images/luma/Myx.gif",
 	"cry": "/cry/Myx.wav",
-	"tier": "C",
+	"tier": "A",
 	"stats": {
 		"hp": 51,
 		"sta": 59,
@@ -5150,7 +5150,7 @@
 	"lumaIcon": "/images/luma/Raize.png",
 	"lumaGif": "/images/luma/Raize.gif",
 	"cry": "/cry/Raize.wav",
-	"tier": "A",
+	"tier": "S",
 	"stats": {
 		"hp": 66,
 		"sta": 46,
@@ -5621,7 +5621,7 @@
 	"lumaIcon": "/images/luma/Saipat.png",
 	"lumaGif": "/images/luma/Saipat.gif",
 	"cry": "/cry/Saipat.wav",
-	"tier": "B",
+	"tier": "A",
 	"stats": {
 		"hp": 92,
 		"sta": 42,
@@ -6369,7 +6369,7 @@
 	"lumaIcon": "/images/luma/Mushook.png",
 	"lumaGif": "/images/luma/Mushook.gif",
 	"cry": "/cry/Mushook.wav",
-	"tier": "D",
+	"tier": "B",
 	"stats": {
 		"hp": 67,
 		"sta": 45,
@@ -6580,7 +6580,7 @@
 	"lumaIcon": "/images/luma/Mastione.png",
 	"lumaGif": "/images/luma/Mastione.gif",
 	"cry": "/cry/Mastione.wav",
-	"tier": "C",
+	"tier": "B",
 	"stats": {
 		"hp": 69,
 		"sta": 62,
@@ -7575,7 +7575,7 @@
 	"lumaIcon": "/images/luma/Cerneaf.png",
 	"lumaGif": "/images/luma/Cerneaf.gif",
 	"cry": "/cry/Cerneaf.wav",
-	"tier": "C",
+	"tier": "B",
 	"stats": {
 		"hp": 91,
 		"sta": 44,
@@ -8602,7 +8602,7 @@
 	"lumaIcon": "/images/luma/Oceara.png",
 	"lumaGif": "/images/luma/Oceara.gif",
 	"cry": "/cry/Oceara.wav",
-	"tier": "A",
+	"tier": "C",
 	"stats": {
 		"hp": 64,
 		"sta": 42,
@@ -8813,7 +8813,7 @@
 	"lumaIcon": "/images/luma/Nessla.png",
 	"lumaGif": "/images/luma/Nessla.gif",
 	"cry": "/cry/Nessla.wav",
-	"tier": "D",
+	"tier": "C",
 	"stats": {
 		"hp": 45,
 		"sta": 58,
@@ -9138,7 +9138,7 @@
 	"lumaIcon": "/images/luma/Kalabyss.png",
 	"lumaGif": "/images/luma/Kalabyss.gif",
 	"cry": "/cry/Kalabyss.wav",
-	"tier": "C",
+	"tier": "B",
 	"stats": {
 		"hp": 82,
 		"sta": 35,
@@ -9266,7 +9266,7 @@
 	"lumaIcon": "/images/luma/Adoroboros.png",
 	"lumaGif": "/images/luma/Adoroboros.gif",
 	"cry": "/cry/Adoroboros.wav",
-	"tier": "D",
+	"tier": "C",
 	"stats": {
 		"hp": 66,
 		"sta": 66,
@@ -9500,7 +9500,7 @@
 	"lumaIcon": "/images/luma/Tuvine.png",
 	"lumaGif": "/images/luma/Tuvine.gif",
 	"cry": "/cry/Tuvine.wav",
-	"tier": "S",
+	"tier": "A",
 	"stats": {
 		"hp": 57,
 		"sta": 47,
@@ -9608,7 +9608,7 @@
 	"lumaIcon": "/images/luma/Kinu.png",
 	"lumaGif": "/images/luma/Kinu.gif",
 	"cry": "/cry/Kinu.wav",
-	"tier": "A",
+	"tier": "S",
 	"stats": {
 		"hp": 47,
 		"sta": 74,
@@ -9987,7 +9987,7 @@
 	"lumaIcon": "/images/luma/Vulcrane.png",
 	"lumaGif": "/images/luma/Vulcrane.gif",
 	"cry": "/cry/Vulcrane.wav",
-	"tier": "B",
+	"tier": "A",
 	"stats": {
 		"hp": 76,
 		"sta": 65,
@@ -10267,7 +10267,7 @@
 	"lumaIcon": "/images/luma/Anahir.png",
 	"lumaGif": "/images/luma/Anahir.gif",
 	"cry": "/cry/Anahir.wav",
-	"tier": "A",
+	"tier": "B",
 	"stats": {
 		"hp": 54,
 		"sta": 36,
