@@ -1,11 +1,11 @@
 [{
-	"temtem": "Platypet",
-	"lumaRate": 2.5,
-	"minSvs": 0,
-	"eggMoves": 0.05
-}, {
-	"temtem": "Toxolotl",
+	"temtem": "Umishi",
 	"lumaRate": 3.0,
 	"minSvs": 0,
-	"eggMoves": 0.05
+	"eggMoves": 0.10
+}, {
+	"temtem": "Fomu",
+	"lumaRate": 3.0,
+	"minSvs": 0,
+	"eggMoves": 0.15
 }]
