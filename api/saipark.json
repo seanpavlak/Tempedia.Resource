@@ -1,11 +1,11 @@
 [{
-	"temtem": "Umishi",
-	"lumaRate": 3.0,
+	"temtem": "Valash",
+	"lumaRate": 2.0,
 	"minSvs": 0,
-	"eggMoves": 0.10
+	"eggMoves": 0.0
 }, {
-	"temtem": "Fomu",
-	"lumaRate": 3.0,
+	"temtem": "Nessla",
+	"lumaRate": 2.0,
 	"minSvs": 0,
-	"eggMoves": 0.15
+	"eggMoves": 0.0
 }]
